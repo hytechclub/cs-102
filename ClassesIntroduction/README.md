@@ -16,3 +16,6 @@ During the lecture, the students can follow along and build up a simple Console 
 
 ## Practice
 Send the students to the whiteboard in three groups, and have them design a C# class for a restaurant (or anything else). They should think about what information is important to store about a restaurant. They should start at the conceptual level, simply figuring out how the data should appear. Then, they can attempt to build that template into an actual class. They can follow the instructions in the [RestaurantClass](RestaurantClass.md) guide.
+
+## Solutions
+- [ClassesIntro](ClassesIntro/) - Complete version, after follow-along

@@ -20,3 +20,6 @@ The beginning part of the individual exercise can be completed as a group. There
 ## Challenges
 Challenges are built into the individual exercises.
 
+## Solutions
+- [AbstractClassesIntro](AbstractClassesIntro/) - Starting point for follow-along
+- [Shapes](Shapes/) - Complete version of the individual activity

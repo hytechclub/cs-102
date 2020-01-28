@@ -35,7 +35,8 @@ namespace ClassesIntro
         {
             string dogName = DogName.Text;
 
-            Dog dog = new Dog("Corgi", 12, dogName);
+            Dog dog = new Dog();
+            dog.Name = dogName;
             dog.SayName();
         }
     }

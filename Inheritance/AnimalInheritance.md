@@ -1,5 +1,5 @@
 # Dogs and Ducks and Frogs, Oh My
-Start from the [InheritanceIntro](InheritanceIntro/InheritanceIntro.sln) solution. Remember how we represented a Dog in C# using the `Dog` class.
+Start from the [InheritanceIntro](InheritanceIntro/) solution. Remember how we represented a Dog in C# using the `Dog` class.
 
 ## Duck
 Next, say we wanted to represent a Duck. Create a new file, `Duck.cs`, and define the Duck class:

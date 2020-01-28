@@ -20,7 +20,10 @@ Plane -> maximum altitude
 There is no lecture this lesson. The discussion from the Warm Up should lead into the Follow-Along activity.
 
 ## Follow-Along - Update Dog
-Start from the InheritanceIntro solution: [InheritanceIntro.sln](./InheritanceIntro/InheritanceIntro.sln). Follow the instructions in [AnimalInheritance.md](AnimalInheritance.md) to add another animal class. Then, introduce inheritance as a way to simplify the implementation.
+Start from the InheritanceIntro solution: [InheritanceIntro](./InheritanceIntro/). Follow the instructions in [AnimalInheritance.md](AnimalInheritance.md) to add another animal class. Then, introduce inheritance as a way to simplify the implementation.
 
 ## Individual - More Animals
 The students should follow the instructions in [IndividualInstructions.md](IndividualInstructions.md) to add some new classes.
+
+## Solutions
+[InheritanceIntro](InheritanceIntro/) - Starting point for follow-along

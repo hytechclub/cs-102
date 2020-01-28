@@ -29,3 +29,6 @@ Follow the instructions in [MovieListInstructions.md](MovieListInstructions.md) 
 
 ## Challenges
 If the students finish building the basic Movie List, they can attempt the challenges listed in [MovieListChallengesBasic.md](MovieListChallengesBasic.md).
+
+## Solutions
+- [MovieList](MovieList/) - Complete version, after the code-along
