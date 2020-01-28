@@ -1,0 +1,17 @@
+﻿<Window x:Class="Shapes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shapes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Canvas Name="myCanvas" Background="AliceBlue" MouseLeftButtonDown="myCanvas_MouseLeftButtonDown">
+            <Button Canvas.Left="10" Canvas.Top="10" Name="BounceEaseButton" Click="BounceEaseButton_Click">BounceEase</Button>
+            <Button Canvas.Left="10" Canvas.Top="35" Name="SlideEaseButton" Click="SlideEaseButton_Click">SlideEase</Button>
+            <Button Canvas.Left="10" Canvas.Top="60" Name="SlowFastEaseButton" Click="SlowFastEaseButton_Click">SlowFastEase</Button>
+            <Button Canvas.Left="10" Canvas.Top="85" Name="ElasticEaseButton" Click="ElasticEaseButton_Click">ElasticEase</Button>
+        </Canvas>
+    </Grid>
+</Window>
