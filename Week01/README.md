@@ -11,4 +11,4 @@ Use a previous Kahoot from C# 101: https://create.kahoot.it/details/intro-to-c-r
 Show the students Visual Studio. Make sure they all create Microsoft accounts so they can use VS Community. Discuss the basics of solution files and project files.
 
 ## Introduction to WPF
-[WPF](WPF/)
+[WPF](../WPF/)
