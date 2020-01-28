@@ -34,5 +34,5 @@ Update all animals with an additional field, and add some additional animals to 
 There are no challenges this lesson
 
 ## Solutions
-[PolymorphismIntro](PolymorphismIntro/) - Starting point for follow-along
-[PolymorphismIntroComplete](PolymorphismIntroComplete) - Complete version of the follow-along
+- [PolymorphismIntro](PolymorphismIntro/) - Starting point for follow-along
+- [PolymorphismIntroComplete](PolymorphismIntroComplete) - Complete version of the follow-along
