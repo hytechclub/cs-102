@@ -1,4 +1,4 @@
-# C# 101: Introduction to `C#`
+# C# 101: Introduction to C#
 Welcome to the C# 101 Hy-Tech Club course!
 
 - [Week 1 - WPF](WPF/StudentDesc.md)
