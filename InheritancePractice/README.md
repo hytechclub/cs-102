@@ -10,5 +10,5 @@ Students should start from the MovieListInheritance solution: [MovieListInherita
 If the students complete the basic individual exercises, they can attempt the challenges.
 
 ## Solutions
-[MovieListInheritance](MovieListInheritance/) - Starting point for the individual exercise
-[MovieListInheritanceComplete](MovieListInheritanceComplete/) - Complete version of the individual exercise
+- [MovieListInheritance](MovieListInheritance/) - Starting point for the individual exercise
+- [MovieListInheritanceComplete](MovieListInheritanceComplete/) - Complete version of the individual exercise
