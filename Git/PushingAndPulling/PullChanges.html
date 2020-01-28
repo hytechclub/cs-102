@@ -1,0 +1,465 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Pull Changes · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="PushChanges.html" />
+    
+    
+    <link rel="prev" href="../Intro/FormAndCloneARepository.md" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../WPF/StudentDesc.html">
+            
+                <a href="../../WPF/StudentDesc.html">
+            
+                    
+                    Week 1 - WPF
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../StudentDesc.html">
+            
+                <a href="../StudentDesc.html">
+            
+                    
+                    Week 2 - Git
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Intro/MakeAGitHubAccount.html">
+            
+                <a href="../Intro/MakeAGitHubAccount.html">
+            
+                    
+                    Make a GitHub Account
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Intro/FormAndCloneARepository.md">
+            
+                <span>
+            
+                    
+                    Fork and Clone a Repository
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.3" data-path="PullChanges.html">
+            
+                <a href="PullChanges.html">
+            
+                    
+                    Pull Changes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="PushChanges.html">
+            
+                <a href="PushChanges.html">
+            
+                    
+                    Push Changes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../ClassesIntroduction/StudentDesc.html">
+            
+                <a href="../../ClassesIntroduction/StudentDesc.html">
+            
+                    
+                    Week 3 - C# Classes Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../ClassesIntroduction/RestaurantClass.html">
+            
+                <a href="../../ClassesIntroduction/RestaurantClass.html">
+            
+                    
+                    Restaurant Class Activity
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../Constructors/StudentDesc.html">
+            
+                <a href="../../Constructors/StudentDesc.html">
+            
+                    
+                    Week 4 - Class Constructors
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../Constructors/MovieListInstructions.html">
+            
+                <a href="../../Constructors/MovieListInstructions.html">
+            
+                    
+                    Movie List Instructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../Constructors/MovieListChallengesBasic.html">
+            
+                <a href="../../Constructors/MovieListChallengesBasic.html">
+            
+                    
+                    Movie List Challenges Basic
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Pull Changes</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="pull-changes">Pull Changes</h1>
+<p>When you want to retrieve changes from the server, you will have to <strong>pull</strong> those changes down. You can pull changes from your personal GitHub repository. If you forked another repository, you can also pull changes from the original repository (called the <em>upstream</em> repository).</p>
+<h4 id="important-note">IMPORTANT NOTE</h4>
+<p>When working with a forked repository, after pulling from the original upstream repository, you should <strong>push</strong> the changes up to your fork. This ensures that the upstream changes are also reflected in your personal server repository, </p>
+<h2 id="pulling-changes-in-visual-studio-code">Pulling changes in Visual Studio Code</h2>
+<h3 id="pulling-from-your-server-repository">Pulling from your server repository</h3>
+<p>Visual Studio Code has an interesting tool for pulling changes down from the remote repository. Instead of simply pulling changes, it actually <em>synchronizes</em> the local and remote repositories. This means that it pushes any commit changes up, and also pulls down any changes from the server that may exist.</p>
+<p>To pull your changes down, use the <strong>Synchronize Changes</strong> button on the blue bar at the bottom of the window:<br><img src="https://i.imgur.com/d2PY1qT.png" alt=""></p>
+<p>Once you click that button, your server changes should exist in your local clone! You can go to your repository on GitHub and make sure it matches your local repository.</p>
+<h3 id="pulling-from-the-original-upstream-repository">Pulling from the original upstream repository</h3>
+<p>The easiest way to pull from the upstream repository is via the command line.</p>
+<p>To open a command prompt within Visual Studio Code, select &quot;Terminal&quot; in the file menu, and the click &quot;New Terminal&quot;:<br>    <img src="https://i.imgur.com/tKycDW0.png" alt=""></p>
+<p>That should open a Git Bash terminal in the proper folder. Then, follow the instructions for pulling from the original upstream repository via the command line.</p>
+<p><br></p>
+<h2 id="pulling-changes-in-visual-studio">Pulling changes in Visual Studio</h2>
+<h3 id="pulling-from-your-server-repository">Pulling from your server repository</h3>
+<p>Visual Studio has some nice built-in tools for pulling changes from the remote repository.</p>
+<ol>
+<li>Open the <strong>Team Explorer</strong> pane<br> <img src="https://i.imgur.com/TIRIdPc.png" alt=""></li>
+<li>Under &quot;Project&quot;, click <strong>Sync</strong><br> <img src="https://i.imgur.com/GhmxHki.png" alt=""></li>
+<li>Under &quot;Incoming Commits&quot;, click <strong>Pull</strong><br> <img src="https://i.imgur.com/P6LYa3u.png" alt=""><ul>
+<li><em>Note: To simply view incoming commits, but not merge them, you can click <strong>Fetch</strong></em></li>
+</ul>
+</li>
+</ol>
+<p>Once you pull, your server changes should exist in your local clone! You can go to your repository on GitHub and make sure it matches your local repository.</p>
+<h3 id="pulling-from-the-original-upstream-repository">Pulling from the original upstream repository</h3>
+<h4 id="adding-the-upstream-remote">Adding the upstream remote</h4>
+<p>To keep your fork up-to-date with the latest changes from the original repository, you will need to add an <strong>upstream remote</strong>. This will allow you to pull when new material is added to the original repository.</p>
+<ol>
+<li>In the <strong>Team Explorer</strong> pane, click the &quot;Home&quot; icon to go home<br> <img src="https://i.imgur.com/HeaJ1DQ.png" alt=""></li>
+<li>Under &quot;Project&quot;, click <strong>Settings</strong><br> <img src="https://i.imgur.com/NhSV4zA.png" alt=""></li>
+<li>Under &quot;Git&quot;, click <strong>Repository Settings</strong><br> <img src="https://i.imgur.com/rkqeOKo.png" alt=""></li>
+<li>In Repository Settings, under &quot;Remotes&quot;, click <strong>Add</strong><br> <img src="https://i.imgur.com/FFg9v6r.png" alt=""></li>
+<li>In the &quot;Add Remote&quot; dialog, enter &quot;upstream&quot; for <em>Name</em></li>
+<li>Enter the URL for the upstream repository for <em>Fetch</em></li>
+<li>Click <strong>Save</strong><br> <img src="https://i.imgur.com/0sSoqUF.png" alt=""></li>
+</ol>
+<p>Now your <strong>upstream remote</strong> is all set up! In order to receive the latest changes from the original repository, you will have to <strong>fetch</strong> and <strong>merge</strong> from the upstream.</p>
+<h4 id="fetching-from-the-upstream-remote">Fetching from the upstream remote</h4>
+<ol>
+<li>In the <strong>Team Explorer</strong> pane, click the &quot;Home&quot; icon to go home<br> <img src="https://i.imgur.com/HeaJ1DQ.png" alt=""></li>
+<li>Under &quot;Project&quot;, click <strong>Sync</strong><br> <img src="https://i.imgur.com/GhmxHki.png" alt=""></li>
+<li>In Synchronization, at the top of the pane, click <strong>Fetch</strong></li>
+<li>Click the dropdown and select &quot;upstream&quot;</li>
+<li>Click <strong>Fetch</strong><br> <img src="https://i.imgur.com/fG1UkIZ.png" alt=""></li>
+</ol>
+<h4 id="merging-from-the-upstream-remote">Merging from the upstream remote</h4>
+<ol>
+<li>In the <strong>Team Explorer</strong> pane, click the &quot;Home&quot; icon to go home<br> <img src="https://i.imgur.com/HeaJ1DQ.png" alt=""></li>
+<li>Under &quot;Project&quot;, click <strong>Branches</strong><br> <img src="https://i.imgur.com/WhOJsN2.png" alt=""></li>
+<li>In Branches, at the top of the pane, click <strong>Merge</strong></li>
+<li>In the &quot;Merge from branch&quot; dropdown, select &quot;upstream/master&quot;</li>
+<li>Click <strong>Merge</strong><br> <img src="https://i.imgur.com/qJu9BsH.png" alt=""></li>
+</ol>
+<p>Now you have the latest changes from the original upstream repository!</p>
+<p><br></p>
+<h2 id="pulling-changes-via-the-command-line">Pulling changes via the Command Line</h2>
+<h3 id="pulling-from-your-server-repository">Pulling from your server repository</h3>
+<p>If you&apos;re using the command line, pulling from your server repository is simple:</p>
+<ol>
+<li>Change your directory to the folder that contains your repository (replace <code>/path/to/repository/</code> with your path) <pre><code class="lang-bash"> <span class="hljs-built_in">cd</span> /path/to/repository/
+</code></pre>
+</li>
+<li>Run the <code>pull</code> command<pre><code class="lang-bash"> git pull
+</code></pre>
+</li>
+</ol>
+<p>That&apos;s it! Now your local clone repository should have all the latest changes from your GitHub repository.</p>
+<h3 id="pulling-from-the-original-upstream-repository">Pulling from the original upstream repository</h3>
+<p>Pulling changes from the upstream repository is also fairly simple, assuming you do not have any conficting changes in your local repository.</p>
+<p>If you are in the proper directory, all you have to do is run <code>git pull</code> with the URL of the upstream repository. Replace <code>UPSTREAMREPOSITORYURL</code> with the url of the original repository:</p>
+<pre><code class="lang-bash">git pull https://github.com/hylandtechoutreach/UPSTREAMREPOSITORYURL.git
+</code></pre>
+<p>Now your local branch should contain all the latest changes from the upstream repository! </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../Intro/FormAndCloneARepository.md" class="navigation navigation-prev " aria-label="Previous page: Fork and Clone a Repository">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="PushChanges.html" class="navigation navigation-next " aria-label="Next page: Push Changes">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Pull Changes","level":"1.3.3","depth":2,"next":{"title":"Push Changes","level":"1.3.4","depth":2,"path":"Git/PushingAndPulling/PushChanges.md","ref":"Git/PushingAndPulling/PushChanges.md","articles":[]},"previous":{"title":"Fork and Clone a Repository","level":"1.3.2","depth":2,"path":"Git/Intro/FormAndCloneARepository.md","ref":"Git/Intro/FormAndCloneARepository.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Git/PushingAndPulling/PullChanges.md","mtime":"2020-01-28T20:37:49.629Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-28T20:38:26.663Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
