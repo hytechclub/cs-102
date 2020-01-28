@@ -11,5 +11,5 @@ Add in a ListView and show how it can reflect the collection of movies. Do this 
 A few challenging exercises for the students to work on individually. They will make updates to the existing Movie List application. Instructions for these exercises are in [MovieListExercises.md](MovieListExercises.md).
 
 ## Solutions
-- [MovieList](../Constructors/MovieList/) - Starting point for follow-along, from [Constructors](Constructors/) lesson
+- [MovieList](../Constructors/MovieList/) - Starting point for follow-along, from [Constructors](../Constructors/) lesson
 - [MovieListExercises](MovieListExercises/) - Complete version, after follow-along
