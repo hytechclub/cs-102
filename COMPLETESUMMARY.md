@@ -1,6 +1,3 @@
-# C# 101: Introduction to C#
-Welcome to the C# 101 Hy-Tech Club course!
-
 - [Week 1 - WPF](WPF/StudentDesc.md)
 - [Week 2 - Git](Git/StudentDesc.md)
     - [Make a GitHub Account](Git/Intro/MakeAGitHubAccount.md)

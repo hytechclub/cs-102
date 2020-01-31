@@ -1,4 +1,4 @@
-# C# 102: Object-Oriented `C#`
+# C# 102: Object-Oriented <span>C#</span>
 Welcome to the C# 102 Hy-Tech Club course!
 
 ## Material
