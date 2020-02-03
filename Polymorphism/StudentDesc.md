@@ -1,8 +1,5 @@
 # Polymorphism
 
-## Warm Up
-- [Warm Up](WarmUp.md)
-
 ## Reference
 - [Animal Polymorphism Follow-Along](AnimalPolymorphismFollowAlong.md)
 
