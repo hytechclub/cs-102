@@ -2,8 +2,6 @@
 
 ## Reference
 - <a href="Constructors.pptx" target="_blank">Constructors PowerPoint Presentation</a>
-
-## Activities
 - [Movie List Instructions](MovieListInstructions.md)
 
 ## Practice
