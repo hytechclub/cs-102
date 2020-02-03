@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Week 3 - C# Classes Introduction · GitBook</title>
+        <title>Individual Instructions · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="RestaurantClass.html" />
+    <link rel="next" href="../InheritancePractice/StudentDesc.html" />
     
     
-    <link rel="prev" href="../Git/PushingAndPulling/PushChanges.html" />
+    <link rel="prev" href="AnimalInheritance.html" />
     
 
     </head>
@@ -190,9 +190,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.4" data-path="../ClassesIntroduction/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../ClassesIntroduction/StudentDesc.html">
             
                     
                     Week 3 - C# Classes Introduction
@@ -204,9 +204,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="RestaurantClass.html">
+        <li class="chapter " data-level="1.4.1" data-path="../ClassesIntroduction/RestaurantClass.html">
             
-                <a href="RestaurantClass.html">
+                <a href="../ClassesIntroduction/RestaurantClass.html">
             
                     
                     Restaurant Class Activity
@@ -312,9 +312,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../Inheritance/StudentDesc.html">
+        <li class="chapter " data-level="1.7" data-path="StudentDesc.html">
             
-                <a href="../Inheritance/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Week 6 - Inheritance
@@ -326,9 +326,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.7.1" data-path="../Inheritance/WarmUp.html">
+        <li class="chapter " data-level="1.7.1" data-path="WarmUp.html">
             
-                <a href="../Inheritance/WarmUp.html">
+                <a href="WarmUp.html">
             
                     
                     Warm Up
@@ -339,9 +339,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.2" data-path="../Inheritance/AnimalInheritance.html">
+        <li class="chapter " data-level="1.7.2" data-path="AnimalInheritance.html">
             
-                <a href="../Inheritance/AnimalInheritance.html">
+                <a href="AnimalInheritance.html">
             
                     
                     Animal Inheritance
@@ -352,9 +352,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.3" data-path="../Inheritance/IndividualInstructions.html">
+        <li class="chapter active" data-level="1.7.3" data-path="IndividualInstructions.html">
             
-                <a href="../Inheritance/IndividualInstructions.html">
+                <a href="IndividualInstructions.html">
             
                     
                     Individual Instructions
@@ -535,7 +535,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Week 3 - C# Classes Introduction</a>
+        <a href=".." >Individual Instructions</a>
     </h1>
 </div>
 
@@ -550,15 +550,43 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="c-classes-introduction">C# Classes Introduction</h1>
-<h2 id="reference">Reference</h2>
+                                <h1 id="individual-exercise---even-more-animals">Individual Exercise - Even More Animals</h1>
+<p>We want our program to be able to represent other animals as well!</p>
+<h2 id="frogs">Frogs</h2>
+<p>One animal we would like to represent in our program is Frogs. We want to create a new class, and add a button that will instantiate a new <code>Frog</code> object. </p>
+<h3 id="frog-class">Frog class</h3>
+<p>Create a new file, <code>Frog.cs</code>, and define the <code>Frog</code> class. The class should:</p>
 <ul>
-<li><a href="ClassesIntro.pptx" target="_blank">Classes Introduction PowerPoint Presentation</a></li>
+<li>Inherit from the <code>Animal</code> class</li>
+<li>Have a <code>Ribbit</code> method that shows a message box saying &quot;Ribbit&quot;</li>
+<li>Have an additional <code>IsPoisonous</code> property</li>
+<li>Have a constructor that takes in its height, its name, and whether or not it is poisonous</li>
 </ul>
-<h2 id="activities">Activities</h2>
+<h3 id="buttons">Buttons</h3>
+<p>Similar to the &quot;Bark&quot; and &quot;Quack&quot; buttons, add in a &quot;Ribbit&quot; button. Additionally, add the Frog to the &quot;Say Name&quot; button click, so that it will show a message with the Frog&apos;s name.</p>
+<h2 id="another-animal">Another Animal</h2>
+<p>Think of another animal we could represent in our code. Add a new class to represent that animal too! Try to think of some specific properties or methods the animal could have in addition to those provided by the base <code>Animal</code> class. Make sure to add buttons for any new methods!</p>
+<h2 id="organisms">Organisms</h2>
+<p>An even more basic classification for Animals is <strong>Organisms</strong>. If we wanted to represent even more organisms in our program, beyond simply Animals, we could introduce a new base class!</p>
 <ul>
-<li><a href="RestaurantClass.html">Restaurant Class Activity</a></li>
+<li>Create another class called <code>Organism</code><ul>
+<li>All <code>Organism</code>s should have a DNA Profile, represented as a <code>string</code></li>
 </ul>
+</li>
+<li>Make <code>Animal</code> inherit from <code>Organism</code><ul>
+<li>Now all of our <code>Animal</code>s will have a DNA Profile, too!</li>
+</ul>
+</li>
+</ul>
+<p>Now, <code>Animal</code> is both a base class AND a derived class. It is the base class to <code>Dog</code>, <code>Frog</code>, etc, and it is the derived class to <code>Organism</code>. This means that a <code>Dog</code> is an <code>Animal</code>, and a <code>Dog</code> is ALSO an <code>Organism</code> (because an <code>Animal</code> is an <code>Organism</code>).</p>
+<h2 id="tree">Tree</h2>
+<p>Now that we represent organisms in our program, we can create more derived classes. Create a new class named <code>Tree</code> that inherits from <code>Organism</code>, and give it some properties and methods.</p>
+<h2 id="object-class"><code>Object</code> class</h2>
+<p>Read the following article to learn more about the <code>Object</code> class in C#: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.7.2" target="_blank">https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.7.2</a></p>
+<h3 id="overriding-the-tostring-method">Overriding the <code>ToString</code> method</h3>
+<p>Read through the following article and then override the <code>ToString</code> method on all of your classes: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object.tostring?view=netframework-4.7.2#Overriding" target="_blank">https://docs.microsoft.com/en-us/dotnet/api/system.object.tostring?view=netframework-4.7.2#Overriding</a></p>
+<h2 id="beyond">Beyond</h2>
+<p>What other sorts of things could we represent in C#? The answer is pretty much anything. Try to think of some other types of data, and create some classes, base classes, and derived classes for the data. </p>
 
                                 
                                 </section>
@@ -586,12 +614,12 @@
 
             
                 
-                <a href="../Git/PushingAndPulling/PushChanges.html" class="navigation navigation-prev " aria-label="Previous page: Push Changes">
+                <a href="AnimalInheritance.html" class="navigation navigation-prev " aria-label="Previous page: Animal Inheritance">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="RestaurantClass.html" class="navigation navigation-next " aria-label="Next page: Restaurant Class Activity">
+                <a href="../InheritancePractice/StudentDesc.html" class="navigation navigation-next " aria-label="Next page: Week 7 - Inheritance Practice">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -602,7 +630,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Week 3 - C# Classes Introduction","level":"1.4","depth":1,"next":{"title":"Restaurant Class Activity","level":"1.4.1","depth":2,"path":"ClassesIntroduction/RestaurantClass.md","ref":"ClassesIntroduction/RestaurantClass.md","articles":[]},"previous":{"title":"Push Changes","level":"1.3.4","depth":2,"path":"Git/PushingAndPulling/PushChanges.md","ref":"Git/PushingAndPulling/PushChanges.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"COMPLETESUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ClassesIntroduction/StudentDesc.md","mtime":"2020-02-03T13:45:21.133Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-03T13:45:57.983Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Individual Instructions","level":"1.7.3","depth":2,"next":{"title":"Week 7 - Inheritance Practice","level":"1.8","depth":1,"path":"InheritancePractice/StudentDesc.md","ref":"InheritancePractice/StudentDesc.md","articles":[{"title":"Movie List Inheritance Instructions","level":"1.8.1","depth":2,"path":"InheritancePractice/MovieListInheritanceInstructions.md","ref":"InheritancePractice/MovieListInheritanceInstructions.md","articles":[]},{"title":"Challenges","level":"1.8.2","depth":2,"path":"InheritancePractice/Challenges.md","ref":"InheritancePractice/Challenges.md","articles":[]}]},"previous":{"title":"Animal Inheritance","level":"1.7.2","depth":2,"path":"Inheritance/AnimalInheritance.md","ref":"Inheritance/AnimalInheritance.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"COMPLETESUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Inheritance/IndividualInstructions.md","mtime":"2020-02-03T13:45:21.137Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-03T13:45:57.983Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

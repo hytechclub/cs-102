@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Week 3 - C# Classes Introduction · GitBook</title>
+        <title>ListView Follow-Along · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="RestaurantClass.html" />
+    <link rel="next" href="MovieListExercises.html" />
     
     
-    <link rel="prev" href="../Git/PushingAndPulling/PushChanges.html" />
+    <link rel="prev" href="StudentDesc.html" />
     
 
     </head>
@@ -190,9 +190,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.4" data-path="../ClassesIntroduction/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../ClassesIntroduction/StudentDesc.html">
             
                     
                     Week 3 - C# Classes Introduction
@@ -204,9 +204,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="RestaurantClass.html">
+        <li class="chapter " data-level="1.4.1" data-path="../ClassesIntroduction/RestaurantClass.html">
             
-                <a href="RestaurantClass.html">
+                <a href="../ClassesIntroduction/RestaurantClass.html">
             
                     
                     Restaurant Class Activity
@@ -267,9 +267,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../ClassesPractice/StudentDesc.html">
+        <li class="chapter " data-level="1.6" data-path="StudentDesc.html">
             
-                <a href="../ClassesPractice/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Week 5 - Classes Practice
@@ -281,9 +281,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../ClassesPractice/ListViewFollowAlong.html">
+        <li class="chapter active" data-level="1.6.1" data-path="ListViewFollowAlong.html">
             
-                <a href="../ClassesPractice/ListViewFollowAlong.html">
+                <a href="ListViewFollowAlong.html">
             
                     
                     ListView Follow-Along
@@ -294,9 +294,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="../ClassesPractice/MovieListExercises.html">
+        <li class="chapter " data-level="1.6.2" data-path="MovieListExercises.html">
             
-                <a href="../ClassesPractice/MovieListExercises.html">
+                <a href="MovieListExercises.html">
             
                     
                     Movie List Exercises
@@ -535,7 +535,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Week 3 - C# Classes Introduction</a>
+        <a href=".." >ListView Follow-Along</a>
     </h1>
 </div>
 
@@ -550,15 +550,27 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="c-classes-introduction">C# Classes Introduction</h1>
-<h2 id="reference">Reference</h2>
-<ul>
-<li><a href="ClassesIntro.pptx" target="_blank">Classes Introduction PowerPoint Presentation</a></li>
+                                <h3 id="adding-the-list-view">Adding the List View</h3>
+<ol>
+<li>Change the <code>List</code> of Movies to an <code>ObservableCollection</code></li>
+<li>Change <code>Title</code> and <code>ReleaseYear</code> to properties (instead of regular fields)</li>
+<li>Add the <code>ListView</code> to the XAML file, giving it a Name, Height, Margin</li>
+<li>Add the <code>ListView.View</code> and <code>GridView</code> inside the <code>ListView</code></li>
+<li>Add <code>GridViewColumns</code> for each property on the Movie (Title and Release Year)<ul>
+<li>Explain that the <code>Binding</code> specifies which property from the object will appear in the given column</li>
 </ul>
-<h2 id="activities">Activities</h2>
-<ul>
-<li><a href="RestaurantClass.html">Restaurant Class Activity</a></li>
+</li>
+<li>In the <code>MainWindow</code> constructor, set the <code>ItemsSource</code> for the <code>ListView</code> to be the observable collection of Movies</li>
+</ol>
+<h3 id="adding-the-double-click">Adding the Double Click</h3>
+<ol>
+<li>In the XAML, in the <code>ListView</code> tag, start typing &quot;MouseDoubleClick&quot; and generate the event handler</li>
+<li>In the <code>.cs</code> file, fill out the MouseDoubleClick method.<ul>
+<li>Get the selected movie using <code>SelectedItem</code> and cast it as a <code>Movie</code></li>
+<li>If the <code>Movie</code> is not null, show the details for the movie</li>
 </ul>
+</li>
+</ol>
 
                                 
                                 </section>
@@ -586,12 +598,12 @@
 
             
                 
-                <a href="../Git/PushingAndPulling/PushChanges.html" class="navigation navigation-prev " aria-label="Previous page: Push Changes">
+                <a href="StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Week 5 - Classes Practice">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="RestaurantClass.html" class="navigation navigation-next " aria-label="Next page: Restaurant Class Activity">
+                <a href="MovieListExercises.html" class="navigation navigation-next " aria-label="Next page: Movie List Exercises">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -602,7 +614,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Week 3 - C# Classes Introduction","level":"1.4","depth":1,"next":{"title":"Restaurant Class Activity","level":"1.4.1","depth":2,"path":"ClassesIntroduction/RestaurantClass.md","ref":"ClassesIntroduction/RestaurantClass.md","articles":[]},"previous":{"title":"Push Changes","level":"1.3.4","depth":2,"path":"Git/PushingAndPulling/PushChanges.md","ref":"Git/PushingAndPulling/PushChanges.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"COMPLETESUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ClassesIntroduction/StudentDesc.md","mtime":"2020-02-03T13:45:21.133Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-03T13:45:57.983Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ListView Follow-Along","level":"1.6.1","depth":2,"next":{"title":"Movie List Exercises","level":"1.6.2","depth":2,"path":"ClassesPractice/MovieListExercises.md","ref":"ClassesPractice/MovieListExercises.md","articles":[]},"previous":{"title":"Week 5 - Classes Practice","level":"1.6","depth":1,"path":"ClassesPractice/StudentDesc.md","ref":"ClassesPractice/StudentDesc.md","articles":[{"title":"ListView Follow-Along","level":"1.6.1","depth":2,"path":"ClassesPractice/ListViewFollowAlong.md","ref":"ClassesPractice/ListViewFollowAlong.md","articles":[]},{"title":"Movie List Exercises","level":"1.6.2","depth":2,"path":"ClassesPractice/MovieListExercises.md","ref":"ClassesPractice/MovieListExercises.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"COMPLETESUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ClassesPractice/ListViewFollowAlong.md","mtime":"2020-02-03T13:45:21.133Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-03T13:45:57.983Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
