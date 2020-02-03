@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Warm Up · GitBook</title>
+        <title>Final Project · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="AnimalPolymorphismFollowAlong.html" />
     
-    
-    <link rel="prev" href="StudentDesc.html" />
+    <link rel="prev" href="../Interfaces/IndividualInstructions.html" />
     
 
     </head>
@@ -415,9 +413,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.9" data-path="../Polymorphism/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../Polymorphism/StudentDesc.html">
             
                     
                     Week 8 - Polymorphism
@@ -429,22 +427,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.9.1" data-path="WarmUp.html">
+        <li class="chapter " data-level="1.9.1" data-path="../Polymorphism/AnimalPolymorphismFollowAlong.html">
             
-                <a href="WarmUp.html">
-            
-                    
-                    Warm Up
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9.2" data-path="AnimalPolymorphismFollowAlong.html">
-            
-                <a href="AnimalPolymorphismFollowAlong.html">
+                <a href="../Polymorphism/AnimalPolymorphismFollowAlong.html">
             
                     
                     Animal Polymorphism Follow-Along
@@ -455,9 +440,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.3" data-path="AnimalPolymorphismIndividualExercises.html">
+        <li class="chapter " data-level="1.9.2" data-path="../Polymorphism/AnimalPolymorphismIndividualExercises.html">
             
-                <a href="AnimalPolymorphismIndividualExercises.html">
+                <a href="../Polymorphism/AnimalPolymorphismIndividualExercises.html">
             
                     
                     Animal Polymorphism Individual Exercises
@@ -505,6 +490,19 @@
             
         </li>
     
+        <li class="chapter active" data-level="1.11" data-path="FinalProject.html">
+            
+                <a href="FinalProject.html">
+            
+                    
+                    Final Project
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
 
@@ -535,7 +533,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Warm Up</a>
+        <a href=".." >Final Project</a>
     </h1>
 </div>
 
@@ -550,28 +548,58 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <ul>
-<li>Character base class<ul>
-<li>Properties: Name, HitPoints, Gold, Level </li>
-<li>Actions: Move, Speak, LevelUp</li>
+                                <h1 id="final-project">Final Project</h1>
+<h2 id="minimum-technical-requirements">Minimum Technical Requirements</h2>
+<ol>
+<li>Requires user input<ul>
+<li>Should take and respond to user input</li>
+<li>Should behave differently based on the user input</li>
 </ul>
 </li>
-<li>Knight<ul>
-<li>Properties: SwordType, HorseBreed</li>
-<li>Actions: SwingSword, Joust</li>
+<li><p>Example of classes (at least 3)</p>
+<ul>
+<li>Use either inheritance</li>
+<li><p>Use either collection or instance of the base class/interface type to interact with the child types as if they are the base class/interface (Polymorphism). Example:</p>
+<pre><code class="lang-cs">  List&lt;Animal&gt; ClaytonsListOfPets = <span class="hljs-keyword">new</span> List&lt;Animal&gt;();
+
+  Dog jimboTheDog = <span class="hljs-keyword">new</span> Dog(<span class="hljs-string">&quot;Jimbo&quot;</span>, <span class="hljs-number">12.21</span>);
+  Cat suzyTheCat = <span class="hljs-keyword">new</span> Cat(<span class="hljs-string">&quot;The Adorable&quot;</span>, <span class="hljs-string">&quot;Suzy&quot;</span>, <span class="hljs-number">10</span>);
+
+  ClaytonsListOfPets.Add(suzyTheCat);
+  ClaytonsListOfPets.Add(jimboTheDog);
+
+  <span class="hljs-keyword">foreach</span> (Animal pet <span class="hljs-keyword">in</span> ClaytonsListOfPets) {
+      pet.Speak();
+  }
+</code></pre>
+</li>
 </ul>
 </li>
-<li>Wizard<ul>
-<li>Properties: SpellList, WandType</li>
-<li>Actions: CastSpell, Enchant</li>
+</ol>
+<h2 id="expectations">Expectations</h2>
+<ol>
+<li>Expectation is that the Student will use all class time to complete this project. They are welcome to work on the project outside of class, but the project should be scoped to the time they have in class (approximately 4-5 hours of work).<ul>
+<li>Your project should reflect that you have worked 4-5 hours on it!</li>
 </ul>
 </li>
-<li>Merchant<ul>
-<li>Properties: ListOfWares, </li>
-<li>Actions: SellItem, BuyItem</li>
+<li>Keep in mind that you will be presenting this to the entire class, so make sure you are prepared.</li>
+<li>Keep your project backed up in GitHub</li>
+</ol>
+<p><br></p>
+<h2 id="ideas">Ideas</h2>
+<p>You can do whatever you want for your final project as long as it meets the requirements above. However, if you&apos;d like a good starting point, you can try one of the ideas below:</p>
+<h3 id="mini-database-of-some-sort">Mini Database of some sort</h3>
+<p>Create a simple application to create, view, update and delete data objects. These objects can be anything, such as:</p>
+<ul>
+<li>Animals (like a Zoo)</li>
+<li>Songs (like Spotify)</li>
+<li>Videos (like YouTube)</li>
+<li>Documents (like OnBase)</li>
 </ul>
-</li>
-</ul>
+<h3 id="pet-match-app">Pet Match App</h3>
+<p>Create an application that allows a user to enter some information about themselves, and then matches them up with a pet based on the information they entered.</p>
+<h3 id="desktop-search">Desktop search</h3>
+<p>Create an application that will search all the files on the computer given some search criteria.</p>
 
                                 
                                 </section>
@@ -599,14 +627,10 @@
 
             
                 
-                <a href="StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Week 8 - Polymorphism">
+                <a href="../Interfaces/IndividualInstructions.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Individual Instructions">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="AnimalPolymorphismFollowAlong.html" class="navigation navigation-next " aria-label="Next page: Animal Polymorphism Follow-Along">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -615,7 +639,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Warm Up","level":"1.9.1","depth":2,"next":{"title":"Animal Polymorphism Follow-Along","level":"1.9.2","depth":2,"path":"Polymorphism/AnimalPolymorphismFollowAlong.md","ref":"Polymorphism/AnimalPolymorphismFollowAlong.md","articles":[]},"previous":{"title":"Week 8 - Polymorphism","level":"1.9","depth":1,"path":"Polymorphism/StudentDesc.md","ref":"Polymorphism/StudentDesc.md","articles":[{"title":"Warm Up","level":"1.9.1","depth":2,"path":"Polymorphism/WarmUp.md","ref":"Polymorphism/WarmUp.md","articles":[]},{"title":"Animal Polymorphism Follow-Along","level":"1.9.2","depth":2,"path":"Polymorphism/AnimalPolymorphismFollowAlong.md","ref":"Polymorphism/AnimalPolymorphismFollowAlong.md","articles":[]},{"title":"Animal Polymorphism Individual Exercises","level":"1.9.3","depth":2,"path":"Polymorphism/AnimalPolymorphismIndividualExercises.md","ref":"Polymorphism/AnimalPolymorphismIndividualExercises.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"COMPLETESUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Polymorphism/WarmUp.md","mtime":"2020-02-03T13:45:21.145Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-03T13:45:57.983Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Final Project","level":"1.11","depth":1,"previous":{"title":"Individual Instructions","level":"1.10.1","depth":2,"path":"Interfaces/IndividualInstructions.md","ref":"Interfaces/IndividualInstructions.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"COMPLETESUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"FinalProject/FinalProject.md","mtime":"2020-02-03T13:51:55.921Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-03T13:52:36.409Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -1,0 +1,12 @@
+- Character base class
+    - Properties: Name, HitPoints, Gold, Level 
+    - Actions: Move, Speak, LevelUp
+- Knight
+    - Properties: SwordType, HorseBreed
+    - Actions: SwingSword, Joust
+- Wizard
+    - Properties: SpellList, WandType
+    - Actions: CastSpell, Enchant
+- Merchant
+    - Properties: ListOfWares, 
+    - Actions: SellItem, BuyItem
