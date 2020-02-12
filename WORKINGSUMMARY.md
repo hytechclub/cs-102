@@ -1,1 +1,0 @@
-- [Week 1 - WPF](WPF/StudentDesc.md)
