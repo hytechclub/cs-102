@@ -31,3 +31,4 @@ Points can be redeemed for a variety of rewards.
 | 10 | Choose an appropriate (<5min) song to play in class |
 | 15 | Choose an appropriate (<5min) video to watch in class |
 | 20 | Full-size candy bar |
+| 150 | Whole class picks an activity (putt-putt, badminton, volleyball, basketball) |
