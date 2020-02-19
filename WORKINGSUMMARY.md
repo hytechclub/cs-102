@@ -1,1 +1,6 @@
 - [Week 1 - WPF](WPF/StudentDesc.md)
+- [Week 2 - Git](Git/StudentDesc.md)
+    - [Make a GitHub Account](Git/Intro/MakeAGitHubAccount.md)
+    - [Fork and Clone a Repository](Git/Intro/ForkAndCloneARepository.md)
+    - [Pull Changes](Git/PushingAndPulling/PullChanges.md)
+    - [Push Changes](Git/PushingAndPulling/PushChanges.md)
