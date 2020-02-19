@@ -10,3 +10,6 @@ Material for Git and GitHub
 - <a href="PushingAndPulling/GitHub Collaboration.pptx" target="_blank">GitHub Collaboration PowerPoint Presentation</a>
 - [Pull Changes](PushingAndPulling/PullChanges.md)
 - [Push Changes](PushingAndPulling/PushChanges.md)
+
+### Activity
+- [Git Branching](https://learngitbranching.js.org/)
