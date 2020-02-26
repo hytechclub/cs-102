@@ -4,3 +4,5 @@
     - [Fork and Clone a Repository](Git/Intro/ForkAndCloneARepository.md)
     - [Pull Changes](Git/PushingAndPulling/PullChanges.md)
     - [Push Changes](Git/PushingAndPulling/PushChanges.md)
+- [Week 3 - C# Classes Introduction](ClassesIntroduction/StudentDesc.md)
+    - [Restaurant Class Activity](ClassesIntroduction/RestaurantClass.md)
