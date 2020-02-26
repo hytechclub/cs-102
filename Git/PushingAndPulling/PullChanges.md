@@ -2,7 +2,7 @@
 When you want to retrieve changes from the server, you will have to **pull** those changes down. You can pull changes from your personal GitHub repository. If you forked another repository, you can also pull changes from the original repository (called the _upstream_ repository).
 
 #### IMPORTANT NOTE
-When working with a forked repository, after pulling from the original upstream repository, you should **push** the changes up to your fork. This ensures that the upstream changes are also reflected in your personal server repository, 
+When working with a forked repository, after pulling from the original upstream repository, you should **push** the changes up to your fork. This ensures that the upstream changes are also reflected in your personal server repository.
 
 ## Pulling changes in Visual Studio Code
 ### Pulling from your server repository
