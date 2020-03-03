@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Week 3 - C# Classes Introduction · GitBook</title>
+        <title>Movie List Instructions · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="RestaurantClass.html" />
+    <link rel="next" href="MovieListChallengesBasic.html" />
     
     
-    <link rel="prev" href="../Git/PushingAndPulling/PushChanges.html" />
+    <link rel="prev" href="StudentDesc.html" />
     
 
     </head>
@@ -190,9 +190,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.4" data-path="../ClassesIntroduction/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../ClassesIntroduction/StudentDesc.html">
             
                     
                     Week 3 - C# Classes Introduction
@@ -204,9 +204,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="RestaurantClass.html">
+        <li class="chapter " data-level="1.4.1" data-path="../ClassesIntroduction/RestaurantClass.html">
             
-                <a href="RestaurantClass.html">
+                <a href="../ClassesIntroduction/RestaurantClass.html">
             
                     
                     Restaurant Class Activity
@@ -222,9 +222,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../Constructors/StudentDesc.html">
+        <li class="chapter " data-level="1.5" data-path="StudentDesc.html">
             
-                <a href="../Constructors/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Week 4 - Class Constructors
@@ -236,9 +236,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../Constructors/MovieListInstructions.html">
+        <li class="chapter active" data-level="1.5.1" data-path="MovieListInstructions.html">
             
-                <a href="../Constructors/MovieListInstructions.html">
+                <a href="MovieListInstructions.html">
             
                     
                     Movie List Instructions
@@ -249,9 +249,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../Constructors/MovieListChallengesBasic.html">
+        <li class="chapter " data-level="1.5.2" data-path="MovieListChallengesBasic.html">
             
-                <a href="../Constructors/MovieListChallengesBasic.html">
+                <a href="MovieListChallengesBasic.html">
             
                     
                     Movie List Challenges Basic
@@ -297,7 +297,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Week 3 - C# Classes Introduction</a>
+        <a href=".." >Movie List Instructions</a>
     </h1>
 </div>
 
@@ -312,15 +312,43 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="c-classes-introduction">C# Classes Introduction</h1>
-<h2 id="reference">Reference</h2>
+                                <h1 id="movie-list-application">Movie List Application</h1>
+<p>Create a visual application that holds a list of movies. Create a new WPF application, and then create a new class called <code>Movie</code> in its own file (<code>Movie.cs</code>).</p>
+<h2 id="requirements-for-movie-class">Requirements for Movie class</h2>
+<p>The class must contain the following:</p>
+<h3 id="fieldsvariables">Fields/Variables</h3>
 <ul>
-<li><a href="ClassesIntro.pptx" target="_blank">Classes Introduction PowerPoint Presentation</a></li>
+<li>Title</li>
+<li>Release year (4 digit year)</li>
 </ul>
-<h2 id="activities">Activities</h2>
+<h3 id="methods">Methods</h3>
 <ul>
-<li><a href="RestaurantClass.html">Restaurant Class Activity</a></li>
+<li><code>ShowDetails</code>: this method should show a message containing details about the movie (information from the fields above)<ul>
+<li>Use the <code>MessageBox.Show</code> function to show the message</li>
 </ul>
+</li>
+</ul>
+<h3 id="constructor">Constructor</h3>
+<p>Create a basic constructor that takes in a title and releaseYear, and intializes the data to the fields on the object.</p>
+<p><br></p>
+<h2 id="requirements-for-the-main-window">Requirements for the Main Window</h2>
+<p>The <code>MainWindow</code> class should keep track of a <code>List</code> of movies. Remember, you can create a list using something like</p>
+<pre><code>List&lt;int&gt; ints = new List&lt;int&gt;();
+</code></pre><p>In our case, we can create a list of <code>Movie</code>s instead by replacing <code>int</code> with <code>Movie</code>. The user should be able to add to this list of movies, and show details about each movie in the current list of movies.</p>
+<h3 id="user-interface">User Interface</h3>
+<p>The application must contain the following:</p>
+<ul>
+<li>A Title field (label and text box)</li>
+<li>A Release Year field (label and text box)</li>
+<li>An Add button</li>
+<li>A Show All Movies button</li>
+</ul>
+<p>The user interface does not have to look great, but it should be functional.</p>
+<h3 id="individual-activity---button-functionality">Individual Activity - Button functionality</h3>
+<h4 id="add">Add</h4>
+<p>When the user clicks the &quot;Add&quot; button, a new <code>Movie</code> object should be created and added to the list of <code>Movie</code>s. The information for the movie should be taken from the fields in the user interface. Assume the user will always properly enter numeric values for Release Year. Once the movie is added, the fields should all clear their values.</p>
+<h4 id="show-all-movies">Show All Movies</h4>
+<p>For each movie in the movie list, show a message to the user containing all of the information about the movie. Leverage the <code>ShowDetails</code> method on the <code>Movie</code> class to accomplish this.</p>
 
                                 
                                 </section>
@@ -348,12 +376,12 @@
 
             
                 
-                <a href="../Git/PushingAndPulling/PushChanges.html" class="navigation navigation-prev " aria-label="Previous page: Push Changes">
+                <a href="StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Week 4 - Class Constructors">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="RestaurantClass.html" class="navigation navigation-next " aria-label="Next page: Restaurant Class Activity">
+                <a href="MovieListChallengesBasic.html" class="navigation navigation-next " aria-label="Next page: Movie List Challenges Basic">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -364,7 +392,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Week 3 - C# Classes Introduction","level":"1.4","depth":1,"next":{"title":"Restaurant Class Activity","level":"1.4.1","depth":2,"path":"ClassesIntroduction/RestaurantClass.md","ref":"ClassesIntroduction/RestaurantClass.md","articles":[]},"previous":{"title":"Push Changes","level":"1.3.4","depth":2,"path":"Git/PushingAndPulling/PushChanges.md","ref":"Git/PushingAndPulling/PushChanges.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"WORKINGSUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ClassesIntroduction/StudentDesc.md","mtime":"2020-03-03T20:19:17.431Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-03T20:19:59.216Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Movie List Instructions","level":"1.5.1","depth":2,"next":{"title":"Movie List Challenges Basic","level":"1.5.2","depth":2,"path":"Constructors/MovieListChallengesBasic.md","ref":"Constructors/MovieListChallengesBasic.md","articles":[]},"previous":{"title":"Week 4 - Class Constructors","level":"1.5","depth":1,"path":"Constructors/StudentDesc.md","ref":"Constructors/StudentDesc.md","articles":[{"title":"Movie List Instructions","level":"1.5.1","depth":2,"path":"Constructors/MovieListInstructions.md","ref":"Constructors/MovieListInstructions.md","articles":[]},{"title":"Movie List Challenges Basic","level":"1.5.2","depth":2,"path":"Constructors/MovieListChallengesBasic.md","ref":"Constructors/MovieListChallengesBasic.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"WORKINGSUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Constructors/MovieListInstructions.md","mtime":"2020-03-03T20:19:17.435Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-03T20:19:59.216Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
