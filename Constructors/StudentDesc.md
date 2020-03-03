@@ -2,7 +2,9 @@
 
 ## Reference
 - <a href="Constructors.pptx" target="_blank">Constructors PowerPoint Presentation</a>
-- [Movie List Instructions](MovieListInstructions.md)
+
+## Activity
+- Movie List Code-Along
 
 ## Practice
 - [Movie List Challenges Basic](MovieListChallengesBasic.md)
