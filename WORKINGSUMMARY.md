@@ -7,5 +7,4 @@
 - [Week 3 - C# Classes Introduction](ClassesIntroduction/StudentDesc.md)
     - [Restaurant Class Activity](ClassesIntroduction/RestaurantClass.md)
 - [Week 4 - Class Constructors](Constructors/StudentDesc.md)
-    - [Movie List Instructions](Constructors/MovieListInstructions.md)
     - [Movie List Challenges Basic](Constructors/MovieListChallengesBasic.md)
