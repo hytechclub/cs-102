@@ -1,7 +1,7 @@
 # Classes Practice
 
-## Reference
-- [ListView Follow-Along](ListViewFollowAlong.md)
+## Activity
+- `ListView` Follow-Along
 
 ## Practice
 - [Movie List Exercises](MovieListExercises.md)
