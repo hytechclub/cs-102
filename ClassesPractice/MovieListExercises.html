@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Movie List Challenges Basic · GitBook</title>
+        <title>Movie List Exercises · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../ClassesPractice/StudentDesc.html" />
     
-    
-    <link rel="prev" href="MovieListInstructions.html" />
+    <link rel="prev" href="StudentDesc.html" />
     
 
     </head>
@@ -222,9 +220,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.5" data-path="../Constructors/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../Constructors/StudentDesc.html">
             
                     
                     Week 4 - Class Constructors
@@ -236,9 +234,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="MovieListInstructions.html">
+        <li class="chapter " data-level="1.5.1" data-path="../Constructors/MovieListInstructions.html">
             
-                <a href="MovieListInstructions.html">
+                <a href="../Constructors/MovieListInstructions.html">
             
                     
                     Movie List Instructions
@@ -249,9 +247,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.2" data-path="MovieListChallengesBasic.html">
+        <li class="chapter " data-level="1.5.2" data-path="../Constructors/MovieListChallengesBasic.html">
             
-                <a href="MovieListChallengesBasic.html">
+                <a href="../Constructors/MovieListChallengesBasic.html">
             
                     
                     Movie List Challenges Basic
@@ -267,9 +265,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../ClassesPractice/StudentDesc.html">
+        <li class="chapter " data-level="1.6" data-path="StudentDesc.html">
             
-                <a href="../ClassesPractice/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Week 5 - Classes Practice
@@ -281,9 +279,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../ClassesPractice/MovieListExercises.html">
+        <li class="chapter active" data-level="1.6.1" data-path="MovieListExercises.html">
             
-                <a href="../ClassesPractice/MovieListExercises.html">
+                <a href="MovieListExercises.html">
             
                     
                     Movie List Exercises
@@ -329,7 +327,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Movie List Challenges Basic</a>
+        <a href=".." >Movie List Exercises</a>
     </h1>
 </div>
 
@@ -344,25 +342,53 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="movie-list-basic-challenges">Movie List Basic Challenges</h1>
-<h2 id="more-fields">More Fields</h2>
-<p>Add additional fields for Director, Length, and Genre. You will need to:</p>
-<ol>
-<li>Add the <code>TextBlock</code>s and <code>TextBox</code>es to the User Interface</li>
-<li>Add the fields to the <code>Movie</code> class<ul>
-<li>Note that Length should be an <code>int</code></li>
+                                <h1 id="movie-list-exercises">Movie List Exercises</h1>
+<h2 id="1-rotten-tomatoes">1. Rotten Tomatoes</h2>
+<p>Add a field for &quot;Rotten Tomatoes Score&quot; and store that in the Movie object along with the other values.</p>
+<ul>
+<li>The text box and label should be added to the User Interface</li>
+<li>The field should be of type <code>double</code> because it represents a percentage</li>
+<li>When field should be initialized within the constructor</li>
+<li>The score should be added to the <code>ShowDetails</code> method</li>
+</ul>
+<h2 id="2-duplicate-movies">2. Duplicate Movies</h2>
+<p>Prevent the user from adding a movie with a title that already exists in the list. If the movie title is a duplicate, show a message to the user saying it cannot be added.</p>
+<h2 id="3-error-handling">3. Error Handling</h2>
+<p>Add in proper error handling for numeric (<code>int</code> and <code>double</code>) fields when &quot;Add&quot; is clicked.</p>
+<ul>
+<li>If the user does not enter a number for the numeric fields, display a message to the user saying there was an error, and prevent the movie from being added to the list</li>
+<li>If the movie is added successfully, display a message to the user saying it was added</li>
+</ul>
+<h2 id="4-challenge---release-date">4. CHALLENGE - Release Date</h2>
+<p>Instead of storing the Release Year for a movie, store the Release Date using a <code>DateTime</code> type. Use a <code>DatePicker</code> in the User Interface to allow the user to select a date.</p>
+<ul>
+<li>Update the <code>ReleaseYear</code> field in the <code>Movie</code> class:<ul>
+<li>Change the name to <code>ReleaseDate</code></li>
+<li>Change the type to <code>Date</code></li>
 </ul>
 </li>
-<li>Add parameters to the <code>Movie</code> constructor, and initialize the fields</li>
-<li>Add the new fields to the <code>ShowDetails</code> method so the information is shown to the user</li>
-</ol>
-<h2 id="styles">Styles</h2>
-<p>Read this article to familiarize yourself with WPF styles: <a href="https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/styling-and-templating" target="_blank">https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/styling-and-templating</a></p>
-<p>Then, add some styles to your WPF to make your application look great! You can change any styles you&apos;d like, but at least change the font size, font family, text color, and background color for the buttons. After that, feel free to change anything else.</p>
-<h2 id="movie-poster">Movie Poster</h2>
-<p>Add a poster image to each Movie. This should be another field on the <code>Movie</code> class (and in the UI) that will hold the filename of the image (e.g., <code>&quot;C:\\Dog.jpg&quot;</code>).</p>
-<p>In the UI, add a button labeled &quot;Next Movie&quot; that will cycle through all of the movie posters when clicked. Under the button, there should be a <code>&lt;TextBlock&gt;</code> that says the name of the current movie, and an <code>&lt;Image&gt;</code> that displays the poster.</p>
-<p>Use the internet to help figure out how to update a WPF Image from the filesystem.</p>
+<li>Resource: <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.datepicker" target="_blank">https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.datepicker</a></li>
+</ul>
+<h2 id="5-challenge---genre-dropdown">5. CHALLENGE - Genre Dropdown</h2>
+<p>Add a field for &quot;Genre&quot; and store that in the Movie object along with the other values.</p>
+<ul>
+<li>The text box and label should be added to the User Interface</li>
+<li>The field should be of type <code>string</code></li>
+<li>When field should be initialized within the constructor</li>
+<li>The genre should be added to the <code>ShowDetails</code> method</li>
+</ul>
+<p>Use a ComboBox for Genre, allowing the user to select from a dropdown list.</p>
+<ul>
+<li>Resource: <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.combobox" target="_blank">https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.combobox</a></li>
+</ul>
+<h2 id="6-challenge---text-file-database">6. CHALLENGE - Text file Database</h2>
+<p>Save/Load the movie list to/from a text file.</p>
+<ul>
+<li>The text file should represent the contents of the movie list in some way</li>
+<li>Add a Save button that exports the contents of the list into the text file</li>
+<li>Add a Load button that loads the list of Movies into memory from the text file</li>
+<li>Resource: <a href="https://support.microsoft.com/en-us/help/816149/how-to-read-from-and-write-to-a-text-file-by-using-visual-c" target="_blank">https://support.microsoft.com/en-us/help/816149/how-to-read-from-and-write-to-a-text-file-by-using-visual-c</a></li>
+</ul>
 
                                 
                                 </section>
@@ -390,14 +416,10 @@
 
             
                 
-                <a href="MovieListInstructions.html" class="navigation navigation-prev " aria-label="Previous page: Movie List Instructions">
+                <a href="StudentDesc.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Week 5 - Classes Practice">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="../ClassesPractice/StudentDesc.html" class="navigation navigation-next " aria-label="Next page: Week 5 - Classes Practice">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -406,7 +428,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Movie List Challenges Basic","level":"1.5.2","depth":2,"next":{"title":"Week 5 - Classes Practice","level":"1.6","depth":1,"path":"ClassesPractice/StudentDesc.md","ref":"ClassesPractice/StudentDesc.md","articles":[{"title":"Movie List Exercises","level":"1.6.1","depth":2,"path":"ClassesPractice/MovieListExercises.md","ref":"ClassesPractice/MovieListExercises.md","articles":[]}]},"previous":{"title":"Movie List Instructions","level":"1.5.1","depth":2,"path":"Constructors/MovieListInstructions.md","ref":"Constructors/MovieListInstructions.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"WORKINGSUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Constructors/MovieListChallengesBasic.md","mtime":"2020-03-06T15:16:40.983Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-06T15:17:21.708Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Movie List Exercises","level":"1.6.1","depth":2,"previous":{"title":"Week 5 - Classes Practice","level":"1.6","depth":1,"path":"ClassesPractice/StudentDesc.md","ref":"ClassesPractice/StudentDesc.md","articles":[{"title":"Movie List Exercises","level":"1.6.1","depth":2,"path":"ClassesPractice/MovieListExercises.md","ref":"ClassesPractice/MovieListExercises.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"WORKINGSUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ClassesPractice/MovieListExercises.md","mtime":"2020-03-06T15:16:40.979Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-06T15:17:21.708Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
