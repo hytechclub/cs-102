@@ -26,9 +26,6 @@
 1. Keep in mind that you will be presenting this to the entire class, so make sure you are prepared.
 1. Keep your project backed up in GitHub
 
-
-<br>
-
 ## Ideas
 You can do whatever you want for your final project as long as it meets the requirements above. However, if you'd like a good starting point, you can try one of the ideas below:
 
