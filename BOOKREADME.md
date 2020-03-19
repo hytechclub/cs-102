@@ -5,6 +5,7 @@ Welcome to the C# 102 Hy-Tech Club course!
 - Install [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
 - Recordings for lectures and code-alongs will be posted to [this playlist](https://www.youtube.com/playlist?list=PL1P_sExxi-9PSNwmays_UE8JYllVu7P7u)
 - Office Hours will be held via [Zoom](https://hyland.zoom.us/j/731095925) on Wednesday from 5:30PM-6:30PM
+- Email [c102@hyland.com](mailto:c102@hyland.com) with any questions
 
 ### Weekly Plan
 Each week, follow the same type of agenda we normally would follow in class:
