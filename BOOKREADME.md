@@ -3,6 +3,7 @@ Welcome to the C# 102 Hy-Tech Club course!
 
 ## Online Learning
 - Install [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
+    - Watch [this video](https://www.youtube.com/watch?v=Rbm93AEXCrQ&list=PL1P_sExxi-9PSNwmays_UE8JYllVu7P7u&index=20&t=0s) to get all the software set up
 - Recordings for lectures and code-alongs will be posted to [this playlist](https://www.youtube.com/playlist?list=PL1P_sExxi-9PSNwmays_UE8JYllVu7P7u)
 - Office Hours will be held via [Zoom](https://hyland.zoom.us/j/731095925) on Wednesday from 5:30PM-6:30PM
 - Email [c102@hyland.com](mailto:c102@hyland.com) with any questions
