@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Animal Inheritance · GitBook</title>
+        <title>Movie List Inheritance Instructions · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="IndividualInstructions.html" />
+    <link rel="next" href="Challenges.html" />
     
     
-    <link rel="prev" href="WarmUp.html" />
+    <link rel="prev" href="StudentDesc.html" />
     
 
     </head>
@@ -312,9 +312,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.7" data-path="../Inheritance/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../Inheritance/StudentDesc.html">
             
                     
                     Week 6 - Inheritance
@@ -326,9 +326,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.7.1" data-path="WarmUp.html">
+        <li class="chapter " data-level="1.7.1" data-path="../Inheritance/WarmUp.html">
             
-                <a href="WarmUp.html">
+                <a href="../Inheritance/WarmUp.html">
             
                     
                     Warm Up
@@ -339,9 +339,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.7.2" data-path="AnimalInheritance.html">
+        <li class="chapter " data-level="1.7.2" data-path="../Inheritance/AnimalInheritance.html">
             
-                <a href="AnimalInheritance.html">
+                <a href="../Inheritance/AnimalInheritance.html">
             
                     
                     Animal Inheritance
@@ -352,9 +352,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.3" data-path="IndividualInstructions.html">
+        <li class="chapter " data-level="1.7.3" data-path="../Inheritance/IndividualInstructions.html">
             
-                <a href="IndividualInstructions.html">
+                <a href="../Inheritance/IndividualInstructions.html">
             
                     
                     Individual Instructions
@@ -370,9 +370,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="../InheritancePractice/StudentDesc.html">
+        <li class="chapter " data-level="1.8" data-path="StudentDesc.html">
             
-                <a href="../InheritancePractice/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Week 7 - Inheritance Practice
@@ -384,9 +384,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.8.1" data-path="../InheritancePractice/MovieListInheritanceInstructions.html">
+        <li class="chapter active" data-level="1.8.1" data-path="MovieListInheritanceInstructions.html">
             
-                <a href="../InheritancePractice/MovieListInheritanceInstructions.html">
+                <a href="MovieListInheritanceInstructions.html">
             
                     
                     Movie List Inheritance Instructions
@@ -397,9 +397,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.2" data-path="../InheritancePractice/Challenges.html">
+        <li class="chapter " data-level="1.8.2" data-path="Challenges.html">
             
-                <a href="../InheritancePractice/Challenges.html">
+                <a href="Challenges.html">
             
                     
                     Challenges
@@ -445,7 +445,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Animal Inheritance</a>
+        <a href=".." >Movie List Inheritance Instructions</a>
     </h1>
 </div>
 
@@ -460,84 +460,44 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="dogs-and-ducks-and-frogs-oh-my">Dogs and Ducks and Frogs, Oh My</h1>
-<p>Start from the <a href="https://github.com/hylandtechoutreach/htc-cs-102/tree/master/Week6/InheritanceIntro" target="_blank">InheritanceIntro</a> solution. Remember how we represented a Dog in C# using the <code>Dog</code> class.</p>
-<h2 id="duck">Duck</h2>
-<p>Next, say we wanted to represent a Duck. Create a new file, <code>Duck.cs</code>, and define the Duck class:</p>
-<pre><code class="lang-cs"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Duck</span>
-{
-    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> Height;
-    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> Name;
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Quack</span>(<span class="hljs-params"></span>)
-    </span>{
-        MessageBox.Show(<span class="hljs-string">&quot;Quack&quot;</span>);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">SayName</span>(<span class="hljs-params"></span>)
-    </span>{
-        MessageBox.Show(<span class="hljs-string">&quot;My name is &quot;</span> + Name);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Duck</span>(<span class="hljs-params"></span>) </span>{ }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Duck</span>(<span class="hljs-params"><span class="hljs-keyword">int</span> height, <span class="hljs-keyword">string</span> name</span>)
-    </span>{
-        <span class="hljs-keyword">this</span>.Height = height;
-        <span class="hljs-keyword">this</span>.Name = name;
-    }
-}
-</code></pre>
-<p>After the Duck class is created, add a new button called &quot;Quack&quot; that will create a Duck and call the <code>Quack</code> method. Additionally, in the existing method for the &quot;Say Name&quot; button, create a Duck and call the <code>SayName</code> method.</p>
-<h2 id="inheritance">Inheritance</h2>
-<p>There is a good article in the Microsoft documentation about inheritance in C#: <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance#background-what-is-inheritance" target="_blank">https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance#background-what-is-inheritance</a></p>
-<blockquote>
-<p>Inheritance is one of the fundamental attributes of object-oriented programming. It allows you to define a child class that reuses (inherits), extends, or modifies the behavior of a parent class. The class whose members are inherited is called the base class. The class that inherits the members of the base class is called the derived class.</p>
-</blockquote>
-<p>What do each of our Animal classes have in common?</p>
+                                <h1 id="adding-inheritance-to-the-movie-list-application">Adding Inheritance to the Movie List Application</h1>
+<p>Let&apos;s augment our Movie List so it can keep track of Animated Movies in a special way. For an animated movie, we want to store the Animation Studio that produced the film, and we want to store the Animation Type (2D or 3D). There should be a way to add Animated Movies, and when an Animated Movie is double clicked from within the <code>ListView</code>, it should display the additional information.</p>
+<p>Start from <code>MovieListInheritance.sln</code>, and then follow the instructions below to complete the exercise.</p>
+<h2 id="the-animatedmovie-class">The <code>AnimatedMovie</code> class</h2>
+<p>Create a new <code>AnimatedMovie.cs</code> file, and define a new class <code>AnimatedMovie</code>. The <code>AnimatedMovie</code> class should:</p>
 <ul>
-<li><code>Height</code> Property</li>
-<li><code>Name</code> Property</li>
-<li><code>SayName</code> Method</li>
+<li>Inherit from the <code>Movie</code> class</li>
+<li>Have two <code>string</code> properties: <code>AnimationStudio</code> and <code>AnimationType</code></li>
+<li>Have a constructor that initializes its four properties: <code>Title</code>, <code>ReleaseYear</code>, <code>AnimationStudio</code>, <code>AnimationType</code></li>
+<li>Override the <code>ShowDetails</code> method so that it displays each of the four properties in a nice format<ul>
+<li>Note: to do this, you will have to update the method in the <code>Movie</code> class to support overriding</li>
 </ul>
-<p>Rather than repeating these properties and methods in each class, we can create one <strong>Base Class</strong> and have our animals inherit from it! Define the <code>Animal</code> class in a new <code>Animal.cs</code> file:</p>
-<pre><code class="lang-cs"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Animal</span>
-{
-    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> Height;
-    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> Name;
+</li>
+</ul>
+<h2 id="the-main-window-xaml">The Main Window XAML</h2>
+<p>Currently, the XAML contains a <code>StackPanel</code> within a <code>Border</code>. That&apos;s where we want to add our Animated Movie options! Update the <code>StackPanel</code> to include the following:</p>
+<ul>
+<li>A field (<code>TextBlock</code> and <code>TextBox</code>) for Animation Studio</li>
+<li>A field (<code>TextBlock</code> and <code>TextBox</code>) for Animation Type</li>
+<li>A <code>Button</code> to add an animated movie (it should say &quot;Add Animated Movie&quot;)</li>
+</ul>
+<p>Make sure the <code>TextBox</code>es have <code>Name</code>s so we can reference them in the <code>MainWindow.xaml.cs</code> file. Also, try to style the fields and button so that they match the existing fields and button. Update the <code>Margin</code> and <code>HorizontalAlignment</code> as necessary.</p>
+<h2 id="the-main-window-c---hooking-up-the-add-animated-movie-button">The Main Window C# - Hooking up the Add Animated Movie button</h2>
+<p>In the Solution Explorer, expand <code>MainWindow.xaml</code> and open <code>MainWindow.xaml.cs</code>. Within the <code>MainWindow</code> class, create a new method with the following signature:</p>
+<pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">AddAnimatedMovieButton_Click</span>(<span class="hljs-params"><span class="hljs-keyword">object</span> sender, RoutedEventArgs e</span>)
+</span>{
 
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">SayName</span>(<span class="hljs-params"></span>)
-    </span>{
-        MessageBox.Show(<span class="hljs-string">&quot;My name is &quot;</span> + Name);
-    }
 }
 </code></pre>
-<p>Now, we should be able to remove the redundancies from our <code>Dog</code> and <code>Duck</code> classes. There&apos;s just one last thing we need to do: set up our classes to <em>inherit</em> from the <code>Animal</code> class. We do this using a colon (<code>:</code>) when after our class name:</p>
-<pre><code class="lang-cs"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span> : <span class="hljs-title">Animal</span>
-{
-    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> Breed;
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Bark</span>(<span class="hljs-params"></span>)
-    </span>{
-        MessageBox.Show(<span class="hljs-string">&quot;Bark&quot;</span>);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Dog</span>(<span class="hljs-params"></span>) </span>{ }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Dog</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> breed, <span class="hljs-keyword">int</span> height, <span class="hljs-keyword">string</span> name</span>)
-    </span>{
-        <span class="hljs-keyword">this</span>.Breed = breed;
-        <span class="hljs-keyword">this</span>.Height = height;
-        <span class="hljs-keyword">this</span>.Name = name;
-    }
-}
-</code></pre>
-<blockquote>
-<p>When reading your code, you can think of the colon to mean &quot;is a&quot; or &quot;is an.&quot; So, <code>Dog : Animal</code> would read &quot;Dog is an Animal&quot;, <code>Duck : Animal</code> would read &quot;Duck is an Animal&quot;, and so on.</p>
-</blockquote>
-<p>Notice that we can still set the <code>Height</code> and <code>Name</code> properties in the constructor, even though we aren&apos;t defining them in the <code>Dog</code> class! This is because they are coming from the <code>Animal</code> class, and <code>Dog</code> inherits from <code>Animal</code>.</p>
-<h2 id="updating-duck">Updating Duck</h2>
-<p>We can do the same thing for our <code>Duck</code> class, too. The program should function in the exact same way, but now it&apos;s much easier to add another Animal if we want. We can also update the <code>Animal</code> class, and all classes that inherit it will receive those updates.</p>
+<p>Back in the XAML, set the <code>Click</code> property of the &quot;Add Animated Movie&quot; <code>Button</code> to point to the <code>AddAnimatedMovieButton_Click</code> method. Then, in the body of the <code>AddAnimatedMovieButton_Click</code> method:</p>
+<ul>
+<li>Get all of the values from the XAML <code>TextBox</code>es and store them in variables</li>
+<li>Create a new <code>AnimatedMovie</code> object using the values from the <code>TextBox</code>es</li>
+<li>Add the <code>AnimatedMovie</code> to <code>MovieList</code></li>
+<li>Clear all of the <code>TextBox</code>es</li>
+</ul>
+<h2 id="testing-it-out">Testing it out</h2>
+<p>Run your application and make sure it works as intended! You should be able to add an Animated Movie. You should also still be able to add a regular Movie. When an item in the List is clicked, it should show the details. If the item is a regular Movie, it should show the Title and Release Year. If the item is an Animated Movie, it should show the Title, Release Year, Animation Studio, and Animation Type.</p>
 
                                 
                                 </section>
@@ -565,12 +525,12 @@
 
             
                 
-                <a href="WarmUp.html" class="navigation navigation-prev " aria-label="Previous page: Warm Up">
+                <a href="StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Week 7 - Inheritance Practice">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="IndividualInstructions.html" class="navigation navigation-next " aria-label="Next page: Individual Instructions">
+                <a href="Challenges.html" class="navigation navigation-next " aria-label="Next page: Challenges">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -581,7 +541,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Animal Inheritance","level":"1.7.2","depth":2,"next":{"title":"Individual Instructions","level":"1.7.3","depth":2,"path":"Inheritance/IndividualInstructions.md","ref":"Inheritance/IndividualInstructions.md","articles":[]},"previous":{"title":"Warm Up","level":"1.7.1","depth":2,"path":"Inheritance/WarmUp.md","ref":"Inheritance/WarmUp.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"WORKINGSUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Inheritance/AnimalInheritance.md","mtime":"2020-03-26T14:43:30.312Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-26T14:44:07.693Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Movie List Inheritance Instructions","level":"1.8.1","depth":2,"next":{"title":"Challenges","level":"1.8.2","depth":2,"path":"InheritancePractice/Challenges.md","ref":"InheritancePractice/Challenges.md","articles":[]},"previous":{"title":"Week 7 - Inheritance Practice","level":"1.8","depth":1,"path":"InheritancePractice/StudentDesc.md","ref":"InheritancePractice/StudentDesc.md","articles":[{"title":"Movie List Inheritance Instructions","level":"1.8.1","depth":2,"path":"InheritancePractice/MovieListInheritanceInstructions.md","ref":"InheritancePractice/MovieListInheritanceInstructions.md","articles":[]},{"title":"Challenges","level":"1.8.2","depth":2,"path":"InheritancePractice/Challenges.md","ref":"InheritancePractice/Challenges.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"WORKINGSUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"InheritancePractice/MovieListInheritanceInstructions.md","mtime":"2020-03-26T14:43:30.316Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-26T14:44:07.693Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
