@@ -16,3 +16,6 @@
     - [Warm Up](Inheritance/WarmUp.md)
     - [Animal Inheritance](Inheritance/AnimalInheritance.md)
     - [Individual Instructions](Inheritance/IndividualInstructions.md)
+- [Week 7 - Inheritance Practice](InheritancePractice/StudentDesc.md)
+    - [Movie List Inheritance Instructions](InheritancePractice/MovieListInheritanceInstructions.md)
+    - [Challenges](InheritancePractice/Challenges.md)
