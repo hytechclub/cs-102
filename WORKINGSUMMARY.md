@@ -19,3 +19,6 @@
 - [Week 7 - Inheritance Practice](InheritancePractice/StudentDesc.md)
     - [Movie List Inheritance Instructions](InheritancePractice/MovieListInheritanceInstructions.md)
     - [Challenges](InheritancePractice/Challenges.md)
+- [Week 8 - Polymorphism](Polymorphism/StudentDesc.md)
+    - [Animal Polymorphism Follow-Along](Polymorphism/AnimalPolymorphismFollowAlong.md)
+    - [Animal Polymorphism Individual Exercises](Polymorphism/AnimalPolymorphismIndividualExercises.md)

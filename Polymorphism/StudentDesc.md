@@ -1,11 +1,9 @@
 # Polymorphism
 
 ## Online Learning
-If you are working on this from home, follow these steps:
+If you are participating in Hy-Tech Club remotely, please join the [Zoom office hours](https://hyland.zoom.us/j/146006550?pwd=VUtxTFplN01TSCtBY3Q0UmZRTndCdz09) from 5:30-7pm on Wednesday 4/8 for this lesson. Instructors will be doing a live lecture and code-along at that time.
 
-1. Pull the latest code from the [Student GitHub repository](https://github.com/hylandtechoutreach/htc-cs-102)
-1. Watch the Code-Along video and complete the activity before or during Office Hours
-1. Complete the Individual Exercise before or during Office Hours
+Before the office hours, please be sure to set up Visual Studio and Git, and pull the latest code from the [GitHub repository](https://github.com/hylandtechoutreach/htc-cs-102).
 
 ## Code-Along
 - [Animal Polymorphism Follow-Along](AnimalPolymorphismFollowAlong.md)
