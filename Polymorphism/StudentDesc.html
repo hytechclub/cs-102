@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>ListView Follow-Along · GitBook</title>
+        <title>Week 8 - Polymorphism · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="MovieListExercises.html" />
+    <link rel="next" href="AnimalPolymorphismFollowAlong.html" />
     
     
-    <link rel="prev" href="StudentDesc.html" />
+    <link rel="prev" href="../InheritancePractice/Challenges.html" />
     
 
     </head>
@@ -267,9 +267,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.6" data-path="../ClassesPractice/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../ClassesPractice/StudentDesc.html">
             
                     
                     Week 5 - Classes Practice
@@ -281,9 +281,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.6.1" data-path="ListViewFollowAlong.html">
+        <li class="chapter " data-level="1.6.1" data-path="../ClassesPractice/ListViewFollowAlong.html">
             
-                <a href="ListViewFollowAlong.html">
+                <a href="../ClassesPractice/ListViewFollowAlong.html">
             
                     
                     ListView Follow-Along
@@ -294,9 +294,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="MovieListExercises.html">
+        <li class="chapter " data-level="1.6.2" data-path="../ClassesPractice/MovieListExercises.html">
             
-                <a href="MovieListExercises.html">
+                <a href="../ClassesPractice/MovieListExercises.html">
             
                     
                     Movie List Exercises
@@ -415,9 +415,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="../Polymorphism/StudentDesc.html">
+        <li class="chapter active" data-level="1.9" data-path="StudentDesc.html">
             
-                <a href="../Polymorphism/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Week 8 - Polymorphism
@@ -429,9 +429,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.9.1" data-path="../Polymorphism/AnimalPolymorphismFollowAlong.html">
+        <li class="chapter " data-level="1.9.1" data-path="AnimalPolymorphismFollowAlong.html">
             
-                <a href="../Polymorphism/AnimalPolymorphismFollowAlong.html">
+                <a href="AnimalPolymorphismFollowAlong.html">
             
                     
                     Animal Polymorphism Follow-Along
@@ -442,9 +442,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.2" data-path="../Polymorphism/AnimalPolymorphismIndividualExercises.html">
+        <li class="chapter " data-level="1.9.2" data-path="AnimalPolymorphismIndividualExercises.html">
             
-                <a href="../Polymorphism/AnimalPolymorphismIndividualExercises.html">
+                <a href="AnimalPolymorphismIndividualExercises.html">
             
                     
                     Animal Polymorphism Individual Exercises
@@ -490,7 +490,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >ListView Follow-Along</a>
+        <a href=".." >Week 8 - Polymorphism</a>
     </h1>
 </div>
 
@@ -505,27 +505,19 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h3 id="adding-the-list-view">Adding the List View</h3>
-<ol>
-<li>Change the <code>List</code> of Movies to an <code>ObservableCollection</code></li>
-<li>Change <code>Title</code> and <code>ReleaseYear</code> to properties (instead of regular fields)</li>
-<li>Add the <code>ListView</code> to the XAML file, giving it a Name, Height, Margin</li>
-<li>Add the <code>ListView.View</code> and <code>GridView</code> inside the <code>ListView</code></li>
-<li>Add <code>GridViewColumns</code> for each property on the Movie (Title and Release Year)<ul>
-<li>Explain that the <code>Binding</code> specifies which property from the object will appear in the given column</li>
+                                <h1 id="polymorphism">Polymorphism</h1>
+<h2 id="online-learning">Online Learning</h2>
+<p>If you are participating in Hy-Tech Club remotely, please join the <a href="https://hyland.zoom.us/j/146006550?pwd=VUtxTFplN01TSCtBY3Q0UmZRTndCdz09" target="_blank">Zoom office hours</a> from 5:30-7pm on Wednesday 4/8 for this lesson. Instructors will be doing a live lecture and code-along at that time.</p>
+<p>Before the office hours, please be sure to set up Visual Studio and Git, and pull the latest code from the <a href="https://github.com/hylandtechoutreach/htc-cs-102" target="_blank">GitHub repository</a>.</p>
+<h2 id="code-along">Code-Along</h2>
+<ul>
+<li><a href="AnimalPolymorphismFollowAlong.html">Animal Polymorphism Follow-Along</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZbGGNV4EvOk&amp;list=PL1P_sExxi-9PSNwmays_UE8JYllVu7P7u&amp;index=38&amp;t=0s" target="_blank">Video</a></li>
 </ul>
-</li>
-<li>In the <code>MainWindow</code> constructor, set the <code>ItemsSource</code> for the <code>ListView</code> to be the observable collection of Movies</li>
-</ol>
-<h3 id="adding-the-double-click">Adding the Double Click</h3>
-<ol>
-<li>In the XAML, in the <code>ListView</code> tag, start typing &quot;MouseDoubleClick&quot; and generate the event handler</li>
-<li>In the <code>.cs</code> file, fill out the MouseDoubleClick method.<ul>
-<li>Get the selected movie using <code>SelectedItem</code> and cast it as a <code>Movie</code></li>
-<li>If the <code>Movie</code> is not null, show the details for the movie</li>
+<h2 id="individual-exercises">Individual Exercises</h2>
+<ul>
+<li><a href="AnimalPolymorphismIndividualExercises.html">Animal Polymorphism Individual Exercises</a></li>
 </ul>
-</li>
-</ol>
 
                                 
                                 </section>
@@ -553,12 +545,12 @@
 
             
                 
-                <a href="StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Week 5 - Classes Practice">
+                <a href="../InheritancePractice/Challenges.html" class="navigation navigation-prev " aria-label="Previous page: Challenges">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="MovieListExercises.html" class="navigation navigation-next " aria-label="Next page: Movie List Exercises">
+                <a href="AnimalPolymorphismFollowAlong.html" class="navigation navigation-next " aria-label="Next page: Animal Polymorphism Follow-Along">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -569,7 +561,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ListView Follow-Along","level":"1.6.1","depth":2,"next":{"title":"Movie List Exercises","level":"1.6.2","depth":2,"path":"ClassesPractice/MovieListExercises.md","ref":"ClassesPractice/MovieListExercises.md","articles":[]},"previous":{"title":"Week 5 - Classes Practice","level":"1.6","depth":1,"path":"ClassesPractice/StudentDesc.md","ref":"ClassesPractice/StudentDesc.md","articles":[{"title":"ListView Follow-Along","level":"1.6.1","depth":2,"path":"ClassesPractice/ListViewFollowAlong.md","ref":"ClassesPractice/ListViewFollowAlong.md","articles":[]},{"title":"Movie List Exercises","level":"1.6.2","depth":2,"path":"ClassesPractice/MovieListExercises.md","ref":"ClassesPractice/MovieListExercises.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"WORKINGSUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ClassesPractice/ListViewFollowAlong.md","mtime":"2020-04-03T13:37:51.108Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-03T13:38:35.358Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Week 8 - Polymorphism","level":"1.9","depth":1,"next":{"title":"Animal Polymorphism Follow-Along","level":"1.9.1","depth":2,"path":"Polymorphism/AnimalPolymorphismFollowAlong.md","ref":"Polymorphism/AnimalPolymorphismFollowAlong.md","articles":[]},"previous":{"title":"Challenges","level":"1.8.2","depth":2,"path":"InheritancePractice/Challenges.md","ref":"InheritancePractice/Challenges.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"WORKINGSUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Polymorphism/StudentDesc.md","mtime":"2020-04-03T13:37:51.120Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-03T13:38:35.358Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
