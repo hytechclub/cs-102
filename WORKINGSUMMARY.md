@@ -22,3 +22,5 @@
 - [Week 8 - Polymorphism](Polymorphism/StudentDesc.md)
     - [Animal Polymorphism Follow-Along](Polymorphism/AnimalPolymorphismFollowAlong.md)
     - [Animal Polymorphism Individual Exercises](Polymorphism/AnimalPolymorphismIndividualExercises.md)
+- [Week 9 - Interfaces](Interfaces/StudentDesc.md)
+    - [Individual Instructions](Interfaces/IndividualInstructions.md)
