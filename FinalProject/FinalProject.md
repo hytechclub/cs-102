@@ -4,8 +4,9 @@
     - Should take and respond to user input
     - Should behave differently based on the user input
 1. Example of classes (at least 3)
-    - Use either inheritance
-    - Use either collection or instance of the base class/interface type to interact with the child types as if they are the base class/interface (Polymorphism). Example:
+    - `MainWindow` does NOT count as one of the 3 classes
+    - Use inheritance
+    - Use either collection or instance of the base class type to interact with the child types as if they are the base class (Polymorphism). Example:
         ```cs
         List<Animal> ClaytonsListOfPets = new List<Animal>();
 
@@ -21,9 +22,8 @@
         ```
 
 ## Expectations
-1. Expectation is that the Student will use all class time to complete this project. They are welcome to work on the project outside of class, but the project should be scoped to the time they have in class (approximately 4-5 hours of work).
+1. Expectation is that the student will use all office hours time to complete this project. They are welcome to work on the project any other time, but the project should be scoped to about 4-5 hours of work.
     - Your project should reflect that you have worked 4-5 hours on it!
-1. Keep in mind that you will be presenting this to the entire class, so make sure you are prepared.
 1. Keep your project backed up in GitHub
 
 ## Ideas
