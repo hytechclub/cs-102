@@ -26,6 +26,29 @@
     - Your project should reflect that you have worked 4-5 hours on it!
 1. Keep your project backed up in GitHub
 
+## Presentations
+Students will be expected to present their projects at the last meeting of the semester.
+
+### Content
+The presentation should include:
+
+- Background about the idea behind the program
+- An overview of the program's functionality
+- An explanation of any new topics learned
+- A brief look into any relevant or interesting parts of the code
+- A discussion of any challenges that arose during the project development
+
+### Procedure
+
+- Students should push all of their code to GitHub
+    - Make sure the code is shared with the instructors
+- If a student is able to share their screen and talk through their project on Zoom, that is preferred
+    - If a student does not have a microphone, they can join the Zoom meeting from a telephone
+    - If a student cannot share their screen, the instructor can show the student's project
+- A student also has the option of recording a video presentation
+- There will be a defined schedule and order for each student to present
+- **If a student does not present a final project, they may not be able to move onto the next level of Hy-Tech Club**
+
 ## Ideas
 You can do whatever you want for your final project as long as it meets the requirements above. However, if you'd like a good starting point, you can try one of the ideas below:
 
