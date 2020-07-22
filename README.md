@@ -1,15 +1,19 @@
 # C# 102 Course Overview
 ## Outline of Weeks
-- Week 1 – Icebreaker stuff, Introduction to [WPF](WPF/)
-- Week 2 – More WPF practice, Introduction to [Git/GitHub](Git/)
-- Week 3 – [Introduction to Classes](ClassesIntroduction/)
-- Week 4 – [Introduction to Constructors](Constructors/)
-- Week 5 – [Classes Practice](ClassesPractice/)
-- Week 6 – [Inheritance](Inheritance/) (requires [Git Pushing & Pulling](Git/PushingAndPulling/))
-- Week 7 – [Inheritance Practice](InheritancePractice/)
-- Week 8 – [Polymorphism](Polymorphism/)
-- Week 9 – Interfaces
-- Week 10-12 – Projects
+- Week 1: C# 101 Review Part 1
+- Week 2: C# 101 Review Part 2
+- Week 3: Collections (Lists)
+- Week 4: Lists Practice
+- Week 5: For Loops
+- Week 6: For Loops Practice
+- Week 7: Classes
+- Week 8: Classes Practice
+- Week 9: Project Work
+- Week 10: Project Work
+- Week 11: Project Presentations
+
+## Virtual Semester
+Use [repl.it](https://repl.it) instead of Visual Studio for a virtual semester. This will prevent the need for Git.
 
 ## GitHub Use
 ### Student Repository
