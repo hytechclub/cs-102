@@ -70,7 +70,6 @@ Instead of simply printing the word "bunny" to the console, the program should d
 Console.WriteLine("() ()");
 Console.WriteLine("(^ ^)");
 Console.WriteLine("(___)");
-}
 ```
 
 ## Adding Another Command
