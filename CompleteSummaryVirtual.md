@@ -1,5 +1,5 @@
-- [Week 1 - Introductions and C# 101 Review](Cs101Review/StudentDesc.md)
-    - [Illustrator Code-Along](Cs101Review/IllustratorCodeAlong.md.md)
+- [Week 1 - Introductions & Review](Cs101Review/StudentDesc.md)
+    - [Illustrator Code-Along](Cs101Review/IllustratorCodeAlong.md)
     - [Basic Review Practice](Cs101Review/BasicReviewPractice.md)
     - [ASCII Art in C#](Cs101Review/AsciiArt.md)
 - [Week 2 - C# 101 Review Continued](Cs101ReviewPart2/StudentDesc.md)
