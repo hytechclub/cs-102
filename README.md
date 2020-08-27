@@ -1,28 +1,18 @@
-# C# 102 Course Overview
+# <span>C# 102: Course Overview</span>
+This course is a continuation of C# 101. It reinforces the foundational material from C# 101, along with introducing additional concepts.
+
 ## Outline of Weeks
-- Week 1: C# 101 Review Part 1
-- Week 2: C# 101 Review Part 2
-- Week 3: Collections (Lists)
+- Week 1: [Introductions + C# 101 Review](Cs101Review/)
+- Week 2: [C# 101 Review Continued](Cs101Review/)
+- Week 3: [Collections (Lists)](Collections/)
 - Week 4: Lists Practice
-- Week 5: For Loops
+- Week 5: [For Loops](ForLoops/)
 - Week 6: For Loops Practice
 - Week 7: Classes
 - Week 8: Classes Practice
-- Week 9: Project Work
-- Week 10: Project Work
-- Week 11: Project Presentations
+- Week 9: Final Project Work
+- Week 10: Final Project Work
+- Week 11: Final Project Presentations
 
 ## Virtual Semester
 Use [repl.it](https://repl.it) instead of Visual Studio for a virtual semester. This will prevent the need for Git.
-
-## GitHub Use
-### Student Repository
-> [https://github.com/hylandtechoutreach/htc-cs-102](https://github.com/hylandtechoutreach/htc-cs-102)
-
-This repository will be accessible to the students. The students will **fork** the repository, and instructors will push **code** to the repository. It should _not_ have instructions for activities; that will be in the Student GitBook.
-
-### Instructor Repository
-This is the instructor repository. It has all of the **lesson plans** for the semester, including the student facing material and solutions.
-
-### Student GitBook
-The student gitbook will be built from the Instructor Repository. It will include instructions for activities, along with resources.
