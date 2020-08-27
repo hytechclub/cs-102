@@ -12,3 +12,8 @@
     - [To-Do List Challenges](Collections/ToDoListChallenges.md)
     - [Additional Challenges](Collections/AdditionalChallenges.md)
 - [Week 4 - Lists Practice](Collections/ListsPractice.md)
+- [Week 5 - For Loops](ForLoops/StudentDesc.md)
+    - [FizzBuzz Code-Along](ForLoops/FizzBuzzCodeAlong.md)
+    - [Sum Individual Exercise](ForLoops/SumIndividual.md)
+    - [Challenges](ForLoops/ForLoopChallenges.md)
+- [Week 6 - For Loops Practice](ForLoops/Practice.md)
