@@ -25,7 +25,7 @@ The _type_ of the `List`, instead of being something like `int` or `string`, is 
 List<List<string>> attendanceDays = new List<List<string>>();
 ```
 
-Create a program that allows a teacher to keep track of the absences across multiple days. This should be a menu-based application. The teacher should be able to:
+**Create a program that allows a teacher to keep track of the absences across multiple days.** This should be a menu-based application. The teacher should be able to do the following:
 
 #### Add a new daily entry to the main `List`
 Create a new `List<string` object for the current day, and add it to the `List<List<string>>`.

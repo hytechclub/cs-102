@@ -19,7 +19,7 @@ Students should follow the [Sum Individual instructions](SumIndividual.md) to co
 There are several [challenges](ForLoopChallenges.md) for the students to complete.
 
 ## Practice Session
-For an additional practice session, the students should continue working on the challenges. It may also be beneficial to play a review game of some sort.
+For an additional [practice session](Practice.md), the students should continue working on the challenges. It may also be beneficial to play a review game of some sort.
 
 ### Bingo Game
 Send students to the [Randomized Bingo Board](https://hylandtechclub.com/RandomizedBingoBoard.html) site so they can play. Go through the code questions in the [For Loop Bingo PowerPoint](ForLoopBingo.pptx), where each answer is a number between 1-24 (no repeats). Randomize the order of the questions before presenting the PowerPoint.

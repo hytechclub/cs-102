@@ -37,7 +37,7 @@ This challenge tasks the students with updating the to-do list application.
 Further challenges for the students.
 
 ## Practice Session
-For an additional practice session, the students should continue working on the challenges. It may also be beneficial to play a review game of some sort.
+For an additional [practice session](ListsPractice.md), the students should continue working on the challenges. It may also be beneficial to play a review game of some sort.
 
 ### Baamboozle Team Quiz
 Split the room up into two teams, and play this [baamboozle quiz](https://www.baamboozle.com/game/138478). Make sure the students are **not** able to see the game code in the URL at any point. The answers are publicly available online, so if they see the game code, the students may be able to cheat.
