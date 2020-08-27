@@ -7,7 +7,7 @@ Learn about collections in C#, mainly focusing on the [`List`](https://docs.micr
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/axs7OrSPhBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Code-Along
-- [To-Do List Follow-Along](ToDoListFollowAlong.md)
+- [To-Do List Code-Along](ToDoListCodeAlong.md)
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/cn5qlHpYJ0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

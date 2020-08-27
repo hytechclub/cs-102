@@ -6,7 +6,7 @@
     - [Boxifier Code-Along](Cs101ReviewPart2/BoxifierCodeAlong.md)
     - [Method Review Practice](Cs101ReviewPart2/MethodReviewPractice.md)
 - [Week 3 - Collections (Lists)](Collections/StudentDesc.md)
-    - [To-Do List Follow-Along](Collections/ToDoListFollowAlong.md)
+    - [To-Do List Code-Along](Collections/ToDoListCodeAlong.md)
     - [To-Do List Individual Exercises](Collections/ToDoListIndividual.md)
     - [Square Count Challenge](Collections/SquareCountChallenge.md)
     - [To-Do List Challenges](Collections/ToDoListChallenges.md)

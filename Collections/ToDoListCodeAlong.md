@@ -1,4 +1,4 @@
-# To-Do List: Follow-Along Activity
+# To-Do List: Code-Along Activity
 Create a program that keep track of a user's to-do list.
 
 ## Part 1 - Setup

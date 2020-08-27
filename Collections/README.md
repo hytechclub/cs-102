@@ -1,4 +1,5 @@
 # Collections (Arrays & Lists)
+Introduce collections (mostly focused on `List`s).
 
 ## Overview
 Collections allow users to store multiple like values within a single object. Two common types of collections will be discussed: arrays and `List`s.
@@ -16,14 +17,14 @@ Pose the following question to the students:
 ## Lecture
 The lecture introduces both arrays and lists. The emphasis is on `List`s (they are more useful in modern programming).
 
-## Formative Assessment: Kahoot
+## Kahoot Quiz
 The Kahoot quiz covers the content from the lecture: https://create.kahoot.it/share/c-101-collections/e1438fe4-431a-4fb0-9aaa-7d1b431852c7
 
-## Follow-Along Activity: To-Do List
-Complete the [ToDoListFollowAlong](ToDoListFollowAlong.md) activity as a group.
+## To-Do List Code-Along
+Complete the [To-Do List Code-Along](ToDoListCodeAlong.md) activity as a group.
 
-## Individual Exercise: To-Do List Updates
-Students complete the [ToDoListIndividual](ToDoListIndividual.md) exercises on their own.
+## To-Do List Individual Updates
+Students complete the [To-Do List Individual Exercises](ToDoListIndividual.md) on their own.
 
 ## Challenges
 ### Square Count Challenge (Less Challenging)
@@ -34,3 +35,9 @@ This challenge tasks the students with updating the to-do list application.
 
 ### Additional Challenges (?)
 Further challenges for the students.
+
+## Practice Session
+For an additional practice session, the students should continue working on the challenges. It may also be beneficial to play a review game of some sort.
+
+### Baamboozle Team Quiz
+Split the room up into two teams, and play this [baamboozle quiz](https://www.baamboozle.com/game/138478). Make sure the students are **not** able to see the game code in the URL at any point. The answers are publicly available online, so if they see the game code, the students may be able to cheat.
