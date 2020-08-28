@@ -14,5 +14,5 @@ Once you have your table, create a real C# class definition! Write it out, makin
 ### Examples
 For each example chain restaurant you modeled, write out how you would create a new _object instance_ of the `Restaurant` class! Remember, `Restaurant` is a **type**, and any specific Restaurant you create is an **object**. Set all of the proper data values for the class fields, and try to make the object instantiation code as syntactically accurate as possible.
 
-## Restaurant abilities
+## Restaurant Abilities
 Consider what the client may want to do with these `Restaurant` objects. How could they interact with each other? What capabilities should they have? Try to translate some of those capabilities into **methods** on the `Restaurant` class definition!
