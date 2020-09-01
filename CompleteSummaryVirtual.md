@@ -23,3 +23,4 @@
 - [Week 8 - Class Constructors](ClassConstructors/StudentDesc.md)
     - [Zoo Manifest Code-Along](ClassConstructors/ZooManifestCodeAlong.md)
     - [Practice](ClassConstructors/Practice.md)
+- [Week 9 - Final Project](FinalProject/FinalProject.md)
