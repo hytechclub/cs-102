@@ -15,7 +15,7 @@ Examples of some palindromes:
 - A man, a plan, a canal - Panama!
 - https://users.math.yale.edu/public_html/People/frame/Fractals/Panorama/Literature/Martin/MartinPalindrome.html
 
-Write a program that does the following:
+**Write a program that does the following:**
 - Asks the user to enter in a word or phrase
 - Check to see if this string is a palindrome
 - If it is a palindrome, print out Yes

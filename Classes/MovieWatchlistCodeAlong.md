@@ -1,5 +1,5 @@
 # Movie Watchlist Code-Along
-Currently, there is [a program](https://Movies.josephmaxwell.repl.run) that tracks movies a person wants to watch. It works pretty well, but there are some improvements to be made in the code. [Refactor](https://en.wikipedia.org/wiki/Code_refactoring) the program so that it uses a `Movie` class, and tracks a `List` of `Movie` objects instead of two lists.
+Currently, there is [a program](https://Movies.josephmaxwell.repl.run) that tracks movies a person wants to watch. It works pretty well, but there are some improvements to be made in the code. [Refactor](https://en.wikipedia.org/wiki/Code_refactoring) the program so that it uses a `Movie` class, and tracks one `List` of `Movie` objects instead of two lists.
 
 Note that the goal of this exercise is NOT to change the functionality of the application; it should still work in the same way. The goal is to improve the architecture, to make it easier to maintain.
 
@@ -7,7 +7,7 @@ Note that the goal of this exercise is NOT to change the functionality of the ap
 Visit the [Repl](https://repl.it/@JosephMaxwell/Movies#main.cs) for the app so far, and try to figure out how it works. There are a few important features:
 
 - Two `List`s: one that stores movie titles, and one that stores movie release years
-- An `while` loop that infinitely displays the menu for the application
+- A `while` loop that infinitely displays the menu for the application
 - An "Add Movie" command that adds a movie title and year to the respective `List`s
 - A "View Movies" command that displays information about each movie
 
@@ -25,7 +25,7 @@ Here is the plan:
 Let's get started!
 
 ## Creating the `Movie` Class
-Create a new file in the same folder named **Movie.cs**. This file will contain the `Movie` class.
+Create a new file in the current folder named **Movie.cs**. This file will contain the `Movie` class.
 
 1. At the top of the file, add `using System;`
 1. Under that, _define_ the `Movie` class with `public class Movie {}`
@@ -44,7 +44,7 @@ public class Movie
 
 That's all that's needed to start working with the `Movie` class and creating `Movie` objects.
 
-## Using the `Movie` Type: Adding `Movie` objects
+## Using the `Movie` Type: Adding `Movie` Objects
 Consolidate the two `List`s that store movie information into one: a `List` of `Movie` objects!
 
 First, remove the two existing `List` variables, and create a new `List<Movie>` named `movies`. Everything looks the same as any other `List`, only with `Movie` as the type:
@@ -65,7 +65,7 @@ movies.Add(movie);
 
 For now, comment out the `for` loop code for viewing movies so the code will work without an error. Run the program, and make sure movies can be added! Obviously, adding movies doesn't do much good if they cannot be viewed.
 
-## Using the `Movie` Type: Viewing `Movie` objects
+## Using the `Movie` Type: Viewing `Movie` Objects
 Before, the code used a `for` loop and printed out the title and year from the separate lists. Now that the `Movie` class exists, the actual printing can be done there instead! This helps separate concerns, and makes the code easier to read.
 
 In the **Movie.cs** file, add a new method named `Print` to the `Movie` class. It should be `public`, and have a return type of `void`:

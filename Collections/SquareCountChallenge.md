@@ -17,17 +17,17 @@ public static bool IsSquare(int num)
 ## Finding the squares
 1. In the `Main` method, declare a new `List<int>` variable named `squares`
 1. Initialize the value of `squares` to a new empty list
-1. Create a `for` loop that will iterate through the numbers 0-100
-    - `for` keyword
-    - initializer (use `i` as the variable)
-    - condition
-    - increment
-1. In the body of the `for` loop, use an `if` statement to check whether the current number (`i`) is a square
+1. Create a `while` loop that will iterate through the numbers 0-100
+    - `int` variable (`i`) to track the current number
+    - `while` loop with parentheses and curly brackets
+    - Condition within the parentheses
+    - Increment `i` within the loop
+2. In the body of the `while` loop, use an `if` statement to check whether the current number (`i`) is a square
     - Pass `i` as an argument to the `IsSquare` method
-1. If `i` is a square, `Add` it to the `squares` list
+3. If `i` is a square, `Add` it to the `squares` list
 
 ## Printing the count
-1. In the body of the `Main` method, beneath the `for` loop, find the `Count` of the `squares` list
+1. In the body of the `Main` method, beneath the `while` loop, find the `Count` of the `squares` list
 1. Store the count in a variable
 1. Display a message to the user informing them of the count
 
@@ -45,7 +45,7 @@ One interesting side effect for this list of perfect squares is that each item i
 
 ## Extra Challenges
 ### Custom limit
-Instead of counting all the squares from 0-100, allow the user to enter the upper limit. Use the number they enter in the `for` loop instead of `100`.
+Instead of counting all the squares from 0-100, allow the user to enter the upper limit. Use the number they enter in the `while` loop instead of `100`.
 
 ### Better error handling
 When squaring a number, do not allow the user to square a number outside the range of the list. For example, if they wish to square the number `20`, but there fewer than `21` items in the list, display a message saying "Number not within range."
