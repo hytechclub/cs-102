@@ -528,6 +528,7 @@
                                 <h1 id="boxifier-code-along">Boxifier Code-Along</h1>
 <p>Follow the instructions below to create and use a method that encases a piece of text in an ASCII box.</p>
 <h2 id="printing-the-welcome-message">Printing the Welcome Message</h2>
+<p>Start by creating a new project and simply printing out a basic welcome message.</p>
 <pre><code class="lang-cs"><span class="hljs-keyword">using</span> System;
 
 <span class="hljs-keyword">class</span> <span class="hljs-title">MainClass</span>
@@ -540,63 +541,94 @@
 }
 </code></pre>
 <h2 id="defining-the-boxify-method">Defining the <code>boxify</code> Method</h2>
-<pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">boxify</span>(<span class="hljs-params"></span>)
-</span>{
-    Console.WriteLine(<span class="hljs-string">&quot;.-------.&quot;</span>);
-    Console.WriteLine(<span class="hljs-string">&quot;|  Box  |&quot;</span>);
-    Console.WriteLine(<span class="hljs-string">&quot;*-------*&quot;</span>);
-}
+<p>The goal of this program will be to have a method named <code>boxify</code> that places a custom message in a box. To start, have the method simply print out a box containing a static message.</p>
+<p>Under the <code>Main</code> method, <em>define</em> a new method named <code>boxify</code>:</p>
+<pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">boxify</span>(<span class="hljs-params"></span>) </span>{ }
 </code></pre>
-<h2 id="calling-the-boxify-method">Calling the <code>boxify</code> Method</h2>
+<p>Then, in the <em>body</em> of the <code>boxify</code> method, add three <code>Console.WriteLine</code> statements to print out the word &quot;Box&quot; surrounded by an ASCII art box:</p>
+<pre><code class="lang-cs">Console.WriteLine(<span class="hljs-string">&quot;.-------.&quot;</span>);
+Console.WriteLine(<span class="hljs-string">&quot;|  Box  |&quot;</span>);
+Console.WriteLine(<span class="hljs-string">&quot;*-------*&quot;</span>);
+</code></pre>
+<p>Finally, <em>call</em> the <code>boxify</code> method from the <code>Main</code> method, under the other code:</p>
 <pre><code class="lang-cs">boxify();
 </code></pre>
+<p>Run the program, and verify that the properly boxed message appears!</p>
 <h2 id="returning-a-string-from-the-boxify-method">Returning a <code>string</code> from the <code>boxify</code> Method</h2>
+<p>To make this more dynamic, the <code>boxify</code> method should <em>return</em> a <code>string</code>. This way, the code that <em>calls</em> the method can do anything with the result.</p>
+<p>Start by updating the <em>method signature</em> of the <code>boxify</code> method so that its return type is <code>string</code> instead of <code>void</code>:</p>
 <pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> <span class="hljs-title">boxify</span>(<span class="hljs-params"></span>)
-</span>{
-    <span class="hljs-keyword">string</span> topLine = <span class="hljs-string">&quot;.-------.&quot;</span>;
-    <span class="hljs-keyword">string</span> middleLine = <span class="hljs-string">&quot;|  Box  |&quot;</span>;
-    <span class="hljs-keyword">string</span> bottomLine = <span class="hljs-string">&quot;*-------*&quot;</span>;
-
-    <span class="hljs-keyword">string</span> entireBox = topLine + <span class="hljs-string">&quot;\n&quot;</span> + middleLine + <span class="hljs-string">&quot;\n&quot;</span> + bottomLine;
-    <span class="hljs-keyword">return</span> entireBox;
-}
+</span></code></pre>
+<p>Next, in the <em>body</em> of the <code>boxify</code> method, move the three <code>string</code>s <em>out</em> of the <code>Console.WriteLine</code> statements, and into their own variables:</p>
+<pre><code class="lang-cs"><span class="hljs-keyword">string</span> topLine = <span class="hljs-string">&quot;.-------.&quot;</span>;
+<span class="hljs-keyword">string</span> middleLine = <span class="hljs-string">&quot;|  Box  |&quot;</span>;
+<span class="hljs-keyword">string</span> bottomLine = <span class="hljs-string">&quot;*-------*&quot;</span>;
+</code></pre>
+<p>Finally, combine the three <code>string</code> lines, separated by <code>&apos;\n&apos;</code> characters, into a new <code>string</code> variable, and <code>return</code> it:</p>
+<pre><code class="lang-cs"><span class="hljs-keyword">string</span> entireBox = topLine + <span class="hljs-string">&quot;\n&quot;</span> + middleLine + <span class="hljs-string">&quot;\n&quot;</span> + bottomLine;
+<span class="hljs-keyword">return</span> entireBox;
 </code></pre>
 <h2 id="using-a-custom-message-parameter-for-the-boxify-method">Using a Custom <code>message</code> Parameter for the <code>boxify</code> Method</h2>
+<p>Now that the box message has been returned as a string, it&apos;s time to add the ability to customize the message. Instead of always putting &quot;Box&quot; in the box, the message will be determined by a <em>parameter</em> on the <code>boxify</code> method.</p>
+<p>First, update the <em>method signature</em> for the <code>boxify</code> method so that it contains a new <code>string</code> parameter of <code>message</code>:</p>
 <pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> <span class="hljs-title">boxify</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> message</span>)
-</span>{
-    <span class="hljs-keyword">string</span> topLine = <span class="hljs-string">&quot;.-------.&quot;</span>;
-    <span class="hljs-keyword">string</span> middleLine = <span class="hljs-string">&quot;|  &quot;</span> + message + <span class="hljs-string">&quot;  |&quot;</span>;
-    <span class="hljs-keyword">string</span> bottomLine = <span class="hljs-string">&quot;*-------*&quot;</span>;
-
-    <span class="hljs-keyword">string</span> entireBox = topLine + <span class="hljs-string">&quot;\n&quot;</span> + middleLine + <span class="hljs-string">&quot;\n&quot;</span> + bottomLine;
-    <span class="hljs-keyword">return</span> entireBox;
-}
+</span></code></pre>
+<p>Then, update the <code>middleLine</code> variable so that instead of containing &quot;Box&quot; it contains the custom <code>message</code> parameter</p>
+<pre><code class="lang-cs"><span class="hljs-keyword">string</span> middleLine = <span class="hljs-string">&quot;|  &quot;</span> + message + <span class="hljs-string">&quot;  |&quot;</span>;
 </code></pre>
+<p>Everything else should still work the same for now!</p>
 <h2 id="updating-the-boxify-method-call-with-the-string-argument">Updating the <code>boxify</code> Method Call with the <code>string</code> Argument</h2>
+<p>The <code>boxify</code> method has been updated quite a bit, but it appears to be broken when it is called from the <code>Main</code> method! This is because the <code>boxify</code> method takes an <em>argument</em> now, and the <code>Main</code> method needs to pass something into it.</p>
+<p>Create a new <code>string</code> variable above the <em>call</em> to <code>boxify</code>, and pass it into the <code>boxify</code> method call:</p>
 <pre><code class="lang-cs"><span class="hljs-keyword">string</span> boxMessage = <span class="hljs-string">&quot;I am in a box&quot;</span>;
 
-<span class="hljs-keyword">string</span> box = boxify(boxMessage);
+boxify(boxMessage);
 </code></pre>
+<p>Additionally, it is important to save what is <em>returned</em> from the <code>boxify</code> method call! Create a new <code>string</code> variable named <code>box</code>, and update the code so that it stores the result in the variable:</p>
+<pre><code class="lang-cs"><span class="hljs-keyword">string</span> box = boxify(boxMessage);
+</code></pre>
+<p>Run the code to make sure it works! It should look okay for some messages, but it also appears to be a little off.</p>
 <h2 id="calculating-the-box-top-and-bottom-dashes">Calculating the Box Top and Bottom Dashes</h2>
+<p>Currently, the number of dashes on the top and the bottom of the box does not change with the message length. This means that the box does not look much like a box! Update the code in the <code>boxify</code> method so that it dynamically creates <code>string</code>s for the top and bottom dashes.</p>
+<p>At the top of the <em>body</em> of the <code>boxify</code> method, create a new <code>string</code> variable named <code>dashes</code>, and set it to the empty string:</p>
 <pre><code class="lang-cs"><span class="hljs-keyword">string</span> dashes = <span class="hljs-string">&quot;&quot;</span>;
-<span class="hljs-keyword">while</span> (dashes.Length &lt; message.Length)
+</code></pre>
+<p>The <code>dashes</code> variable should eventually hold one dash for each character in the <code>message</code>. To accomplish this, set up a <code>while</code> loop:</p>
+<pre><code class="lang-cs"><span class="hljs-keyword">while</span> ()
 {
-    dashes += <span class="hljs-string">&quot;-&quot;</span>;
-}
 
-<span class="hljs-keyword">string</span> topLine = <span class="hljs-string">&quot;.--&quot;</span> + dashes + <span class="hljs-string">&quot;--.&quot;</span>;
+}
+</code></pre>
+<p>In the <em>condition</em> for the <code>while</code> loop, check that the length of <code>dashes</code> is <em>less than</em> the length of <code>message</code>:</p>
+<pre><code class="lang-cs"><span class="hljs-keyword">while</span> (dashes.Length &lt; message.Length)
+</code></pre>
+<p>Basically, the loop should continue until the number of dashes matches the number of characters in the message. Next, in the <em>body</em> of the <code>while</code> loop, add a dash to the <code>dashes</code> variable:</p>
+<pre><code class="lang-cs">dashes += <span class="hljs-string">&quot;-&quot;</span>;
+</code></pre>
+<p>Now that the proper dashes have been calculated, it&apos;s time to place them within the <code>topLine</code> and <code>bottomLine</code> variables. Remove the three <code>-</code> characters currently in the middle of the top and bottom lines, and replace them with the <code>dashes</code> variable:</p>
+<pre><code class="lang-cs"><span class="hljs-keyword">string</span> topLine = <span class="hljs-string">&quot;.--&quot;</span> + dashes + <span class="hljs-string">&quot;--.&quot;</span>;
 <span class="hljs-keyword">string</span> middleLine = <span class="hljs-string">&quot;|  &quot;</span> + message + <span class="hljs-string">&quot;  |&quot;</span>;
 <span class="hljs-keyword">string</span> bottomLine = <span class="hljs-string">&quot;*--&quot;</span> + dashes + <span class="hljs-string">&quot;--*&quot;</span>;
 </code></pre>
+<p>Run the code again, and verify that the box properly sizes to the message! Try updating the <code>boxMessage</code> variable in the <code>Main</code> method, and make sure the box resizes as needed.</p>
 <h2 id="receiving-the-box-message-from-the-console">Receiving the Box Message from the Console</h2>
+<p>The usefulness of the <code>boxify</code> method is that it can boxify any message! Instead of hard-coding a message, ask the user for one.</p>
+<p>First, at the top of the <em>body</em> of the <code>Main</code> method, use <code>Console.WriteLine</code> to print the question to the console:</p>
 <pre><code class="lang-cs">Console.WriteLine(<span class="hljs-string">&quot;What would you like to put in a box?&quot;</span>);
-<span class="hljs-keyword">string</span> boxMessage = Console.ReadLine();
-Console.WriteLine();
 </code></pre>
+<p>Then, update the value of the <code>boxMessage</code> variable so that it is set to <code>Console.ReadLine</code>:</p>
+<pre><code class="lang-cs"><span class="hljs-keyword">string</span> boxMessage = Console.ReadLine();
+</code></pre>
+<p>Finally, add an extra <code>Console.WriteLine</code> underneath the <code>string boxMessage</code> line for some extra space:</p>
+<pre><code class="lang-cs">Console.WriteLine();
+</code></pre>
+<p>Run the code again, and verify that it is possible to boxify any message entered!</p>
 <h2 id="calling-the-boxify-method-on-the-welcome-message">Calling the <code>boxify</code> Method on the Welcome Message</h2>
+<p>One final benefit to the <code>boxify</code> method is that the welcoming message can also be boxified! Create a new <code>string</code> variable named <code>welcomeBox</code>, and set it equal to the boxified welcome message. Then, write it to the console:</p>
 <pre><code class="lang-cs"><span class="hljs-keyword">string</span> welcomeBox = boxify(<span class="hljs-string">&quot;Welcome to the Boxifier!&quot;</span>);
 Console.WriteLine(welcomeBox);
 </code></pre>
+<p>Run the program one last time to see the ultimate power of the Boxifier!</p>
 <h2 id="final-code">Final Code</h2>
 <ul>
 <li><a href="https://repl.it/@JosephMaxwell/Cs101MethodReviewComplete#main.cs" target="_blank">Repl</a></li>
@@ -644,7 +676,7 @@ Console.WriteLine(welcomeBox);
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Boxifier Code-Along","level":"1.3.1","depth":2,"next":{"title":"Method Review Practice","level":"1.3.2","depth":2,"path":"Cs101ReviewPart2/MethodReviewPractice.md","ref":"Cs101ReviewPart2/MethodReviewPractice.md","articles":[]},"previous":{"title":"Week 2 - C# 101 Review Continued","level":"1.3","depth":1,"path":"Cs101ReviewPart2/StudentDesc.md","ref":"Cs101ReviewPart2/StudentDesc.md","articles":[{"title":"Boxifier Code-Along","level":"1.3.1","depth":2,"path":"Cs101ReviewPart2/BoxifierCodeAlong.md","ref":"Cs101ReviewPart2/BoxifierCodeAlong.md","articles":[]},{"title":"Method Review Practice","level":"1.3.2","depth":2,"path":"Cs101ReviewPart2/MethodReviewPractice.md","ref":"Cs101ReviewPart2/MethodReviewPractice.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"CompleteSummaryVirtual.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Cs101ReviewPart2/BoxifierCodeAlong.md","mtime":"2020-09-01T15:48:27.801Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-01T15:49:09.087Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Boxifier Code-Along","level":"1.3.1","depth":2,"next":{"title":"Method Review Practice","level":"1.3.2","depth":2,"path":"Cs101ReviewPart2/MethodReviewPractice.md","ref":"Cs101ReviewPart2/MethodReviewPractice.md","articles":[]},"previous":{"title":"Week 2 - C# 101 Review Continued","level":"1.3","depth":1,"path":"Cs101ReviewPart2/StudentDesc.md","ref":"Cs101ReviewPart2/StudentDesc.md","articles":[{"title":"Boxifier Code-Along","level":"1.3.1","depth":2,"path":"Cs101ReviewPart2/BoxifierCodeAlong.md","ref":"Cs101ReviewPart2/BoxifierCodeAlong.md","articles":[]},{"title":"Method Review Practice","level":"1.3.2","depth":2,"path":"Cs101ReviewPart2/MethodReviewPractice.md","ref":"Cs101ReviewPart2/MethodReviewPractice.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"CompleteSummaryVirtual.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Cs101ReviewPart2/BoxifierCodeAlong.md","mtime":"2020-09-01T16:30:53.011Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-01T16:31:35.279Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
