@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Basic Review Practice · GitBook</title>
+        <title>Zoo Manifest Code-Along · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="AsciiArt.html" />
+    <link rel="next" href="Practice.html" />
     
     
-    <link rel="prev" href="IllustratorCodeAlong.html" />
+    <link rel="prev" href="StudentDesc.html" />
     
 
     </head>
@@ -106,9 +106,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.2" data-path="../Cs101Review/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../Cs101Review/StudentDesc.html">
             
                     
                     Week 1 - Introductions & Review
@@ -120,9 +120,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="IllustratorCodeAlong.html">
+        <li class="chapter " data-level="1.2.1" data-path="../Cs101Review/IllustratorCodeAlong.html">
             
-                <a href="IllustratorCodeAlong.html">
+                <a href="../Cs101Review/IllustratorCodeAlong.html">
             
                     
                     Illustrator Code-Along
@@ -133,9 +133,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.2" data-path="BasicReviewPractice.html">
+        <li class="chapter " data-level="1.2.2" data-path="../Cs101Review/BasicReviewPractice.html">
             
-                <a href="BasicReviewPractice.html">
+                <a href="../Cs101Review/BasicReviewPractice.html">
             
                     
                     Basic Review Practice
@@ -146,9 +146,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="AsciiArt.html">
+        <li class="chapter " data-level="1.2.3" data-path="../Cs101Review/AsciiArt.html">
             
-                <a href="AsciiArt.html">
+                <a href="../Cs101Review/AsciiArt.html">
             
                     
                     ASCII Art in C#
@@ -422,9 +422,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="../ClassConstructors/StudentDesc.html">
+        <li class="chapter " data-level="1.9" data-path="StudentDesc.html">
             
-                <a href="../ClassConstructors/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Week 8 - Class Constructors
@@ -436,9 +436,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.9.1" data-path="../ClassConstructors/ZooManifestCodeAlong.html">
+        <li class="chapter active" data-level="1.9.1" data-path="ZooManifestCodeAlong.html">
             
-                <a href="../ClassConstructors/ZooManifestCodeAlong.html">
+                <a href="ZooManifestCodeAlong.html">
             
                     
                     Zoo Manifest Code-Along
@@ -449,9 +449,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.2" data-path="../ClassConstructors/Practice.html">
+        <li class="chapter " data-level="1.9.2" data-path="Practice.html">
             
-                <a href="../ClassConstructors/Practice.html">
+                <a href="Practice.html">
             
                     
                     Practice
@@ -510,7 +510,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Basic Review Practice</a>
+        <a href=".." >Zoo Manifest Code-Along</a>
     </h1>
 </div>
 
@@ -525,40 +525,64 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="c-101-review-basic-practice"><span>C# 101 Review: Basic Practice</span></h1>
-<p>Follow the instructions to review some basic C# concepts.</p>
-<h2 id="illustrator-enhancements">Illustrator Enhancements</h2>
-<p>After completing the <a href="IllustratorCodeAlong.html">Illustrator Code-Along</a>, make the following enhancements:</p>
-<ol>
-<li>Add more command options to draw more ASCII art!<ul>
-<li>Check out <a href="AsciiArt.html">this guide</a> for help making ASCII art and using it in C#</li>
-</ul>
-</li>
-<li>(BONUS) Instead of using <code>if</code> statements to run the commands, use a <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/switch" target="_blank"><code>switch</code> statement</a></li>
-<li>(BONUS) Define a method for each command, and call each method based on the user&apos;s selection</li>
-</ol>
-<h2 id="find-the-bugs">Find the Bugs</h2>
-<p>Visit each of the following Repls, and fix the errors in them.</p>
+                                <h1 id="zoo-manifest-code-along">Zoo Manifest Code-Along</h1>
+<p>Update an existing class so that it uses a custom constructor!</p>
+<h2 id="starter-app">Starter App</h2>
+<p>Open up the <a href="https://repl.it/@JosephMaxwell/ZooManifest" target="_blank">starter Zoo Manifest app</a>, and take a look at it.</p>
+<h3 id="animal-class"><code>Animal</code> Class</h3>
+<p>The <code>Animal</code> class represents an animal. Each <code>Animal</code> has a name, a species, a height (in inches), and a certain number of legs. There is a method that prints this information to the console.</p>
+<h3 id="main-method"><code>Main</code> Method</h3>
+<p>First, the main method loops with a <code>while</code> loop, allowing the user to add new <code>Animal</code> objects to the <code>List</code> of animals. After adding animals, the program prints out the information for each <code>Animal</code> object.</p>
+<h3 id="modifications">Modifications</h3>
+<p>The goal of this activity is to add a <em>constructor</em> to the <code>Animal</code> class. The actual functionality should NOT change; this is an example of refactoring. This will simplify the code, and make it easier to maintain!</p>
+<h2 id="creating-a-constructor">Creating a Constructor</h2>
+<p>In the <strong>Animal.cs</strong> file, at the bottom of the class definition, add code for a new custom constructor. Remember, defining a constructor is like defining any other method, with two key differences:</p>
 <ul>
-<li><a href="https://repl.it/@JosephMaxwell/Cs101ReviewBug1#main.cs" target="_blank">Bug 1</a></li>
-<li><a href="https://repl.it/@JosephMaxwell/Cs101ReviewBug2#main.cs" target="_blank">Bug 2</a></li>
-<li><a href="https://repl.it/@JosephMaxwell/Cs101ReviewBug3#main.cs" target="_blank">Bug 3</a></li>
-<li><a href="https://repl.it/@JosephMaxwell/Cs101ReviewBug4#main.cs" target="_blank">Bug 4</a></li>
+<li>The name of the constructor has to be the name of the class (in this case, <code>Animal</code>)</li>
+<li>There is no return type for the constructor; instead of returning anything, it <em>initializes</em> a new object of the class type</li>
 </ul>
-<h2 id="multi-page-story">Multi-Page Story</h2>
-<p>Often when reading something on a computer, the program will contain multiple pages instead of showing all the text at once. Create a C# application that will display a story, one passage at a time. It should end up looking something like <a href="https://StoryBook.josephmaxwell.repl.run" target="_blank">this Frankenstein story</a> by the end.</p>
-<p>Use <code>Console.WriteLine</code> to display the text from the story. Use <code>Console.ReadLine</code> to wait for the user to press Enter and continue. Use a <code>while</code> loop to loop through each passage of the story. Make sure to declare a counter variable to keep track of the current passage, and increment it every time through the loop.</p>
-<h3 id="bonus-challenge---word-breaking">Bonus Challenge - Word Breaking</h3>
-<p>Currently, using <code>Console.WriteLine</code> will add line breaks in the middle of words.</p>
-<p>For example, it will show this:</p>
-<pre><code>the success of my und
-ertaking.
-</code></pre><p>When it should show this:</p>
-<pre><code>the success of my
-undertaking.
-</code></pre><p>Fix this by inserting a newline character (<code>\n</code>) in the text for every place the line should break.</p>
-<h4 id="bonus-bonus-challenge---console-window-width">Bonus Bonus Challenge - Console Window Width</h4>
-<p>To make the newlines truly dynamic, measure the width of the console using <code>Console.Window.Width</code>. Use that value to determine where the newline characters should go. This way, it will properly keep words together regardless of the size of the console!</p>
+<p>The code looks like this:</p>
+<pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Animal</span>(<span class="hljs-params"></span>)
+</span>{
+
+}
+</code></pre>
+<h3 id="constructor-parameters">Constructor Parameters</h3>
+<p>Now that the skeleton of the constructor has been defined, it&apos;s time to make it actually do something!</p>
+<p>Developers often use constructors to initialize fields or properties on a class object. To do this for the <code>Animal</code> class, add four parameters to the <code>Animal</code> constructor, each corresponding to one of the fields on the class. The parameters should have the same types as the fields, but they should NOT have the same name.</p>
+<p>The code should look something like this:</p>
+<pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Animal</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> name, <span class="hljs-keyword">string</span> species, <span class="hljs-keyword">int</span> legs, <span class="hljs-keyword">double</span> heightInCm</span>)
+</span>{
+
+}
+</code></pre>
+<h3 id="setting-the-field-values-in-the-constructor">Setting the Field Values in the Constructor</h3>
+<p>Now that the constructor has some parameters, the constructor can use them to build the object. This is a lot like setting the field values outside of the constructor, but it makes it easier to initialize objects. In the body of the constructor, set each field to be the parameter value (except for the <code>heightInCm</code> parameter):</p>
+<pre><code class="lang-cs">Name = name;
+Species = species;
+NumberOfLegs = legs;
+</code></pre>
+<h3 id="setting-the-height">Setting the Height</h3>
+<p>For the <code>HeightInInches</code> property, things will be a little different. Although it is a little contrived, for this application, the user will always want to enter the height in centimeters, but have it stored in inches. Currently, the <code>Main</code> method converts the height from centimeters to inches before setting the <code>HeightInInches</code> property. Instead, it will be cleaner to do the conversion in the constructor!</p>
+<p>Since the height parameter is currently measured in centimeters, set the <code>HeightInInches</code> field to be the value of the <code>heightInCm</code> parameter multiplied by <code>0.39</code>:</p>
+<pre><code class="lang-cs">HeightInInches = heightInCm * <span class="hljs-number">0.39</span>;
+</code></pre>
+<p>Now the constructor is complete! That should be all the changes needed in the <strong>Animal.cs</strong> file.</p>
+<h2 id="using-the-constructor">Using the Constructor</h2>
+<p>Upon running the project in its current state, an error should appear:</p>
+<pre><code>The type `Animal` does not contain a constructor that takes `0` arguments
+</code></pre><p>This is caused by the following statement:</p>
+<pre><code class="lang-cs">Animal a = <span class="hljs-keyword">new</span> Animal();
+</code></pre>
+<p>Because the <code>Animal</code> class now has a custom constructor, the default constructor no longer exists! This means it is necessary to use the custom constructor when instantiating new <code>Animal</code> objects. Update the code in the <strong>main.cs</strong> file so that it properly utilizes the <code>Animal</code> constructor.</p>
+<h3 id="passing-the-arguments">Passing the Arguments</h3>
+<p>Now, instead of taking zero arguments, the <code>Animal</code> constructor method takes four. Pass in the <code>name</code>, <code>species</code>, <code>legNum</code>, and <code>heightCm</code> values directly:</p>
+<pre><code class="lang-cs">Animal a = <span class="hljs-keyword">new</span> Animal(name, species, legNum, heightCm);
+</code></pre>
+<blockquote>
+<p>Note that it is no longer necessary to convert the <code>heightCm</code> value to inches; that happens in the constructor.</p>
+</blockquote>
+<p>Once this change has been made, remove the direct field setting statements below, as they are no longer required! At this point, the program should work again. Run it, and ensure that it works the same as it did before the changes!</p>
 
                                 
                                 </section>
@@ -586,12 +610,12 @@ undertaking.
 
             
                 
-                <a href="IllustratorCodeAlong.html" class="navigation navigation-prev " aria-label="Previous page: Illustrator Code-Along">
+                <a href="StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Week 8 - Class Constructors">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="AsciiArt.html" class="navigation navigation-next " aria-label="Next page: ASCII Art in C#">
+                <a href="Practice.html" class="navigation navigation-next " aria-label="Next page: Practice">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -602,7 +626,7 @@ undertaking.
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Basic Review Practice","level":"1.2.2","depth":2,"next":{"title":"ASCII Art in C#","level":"1.2.3","depth":2,"path":"Cs101Review/AsciiArt.md","ref":"Cs101Review/AsciiArt.md","articles":[]},"previous":{"title":"Illustrator Code-Along","level":"1.2.1","depth":2,"path":"Cs101Review/IllustratorCodeAlong.md","ref":"Cs101Review/IllustratorCodeAlong.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"CompleteSummaryVirtual.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Cs101Review/BasicReviewPractice.md","mtime":"2020-09-01T15:48:27.801Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-01T15:49:09.087Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Zoo Manifest Code-Along","level":"1.9.1","depth":2,"next":{"title":"Practice","level":"1.9.2","depth":2,"path":"ClassConstructors/Practice.md","ref":"ClassConstructors/Practice.md","articles":[]},"previous":{"title":"Week 8 - Class Constructors","level":"1.9","depth":1,"path":"ClassConstructors/StudentDesc.md","ref":"ClassConstructors/StudentDesc.md","articles":[{"title":"Zoo Manifest Code-Along","level":"1.9.1","depth":2,"path":"ClassConstructors/ZooManifestCodeAlong.md","ref":"ClassConstructors/ZooManifestCodeAlong.md","articles":[]},{"title":"Practice","level":"1.9.2","depth":2,"path":"ClassConstructors/Practice.md","ref":"ClassConstructors/Practice.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"CompleteSummaryVirtual.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ClassConstructors/ZooManifestCodeAlong.md","mtime":"2020-09-01T15:48:27.781Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-01T15:49:09.087Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

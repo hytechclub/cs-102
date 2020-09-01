@@ -1,8 +1,10 @@
-## Overview
-Do some review and a short lesson, then introduce the final project.
+# Overview
+Kick things off with a quick review quiz, and then let the students work on their projects.
 
-## Review Kahoot
-https://play.kahoot.it/#/k/76620fdd-6e7d-4bbe-b2c0-10ea07a322d2
+## Review Quizizz
+Have the students complete the [Final Review Quizizz](https://quizizz.com/admin/quiz/5f4e2c1292683d001caeda01/c-final-review). There are several options to play around with, such as a "Team" quiz option. Make sure the "Shuffle answer options" setting is off, but other than that, try to make it fun for everyone!
+
+Once a student completes the quiz, they can begin working on their final project (even if the entire class has not completed it yet).
 
 ## Final Project
-Allow the students to begin working on their final projects given the requirements
+The remainder of the session will be devoted to final project work. The final project should have been introduced in the previous session.

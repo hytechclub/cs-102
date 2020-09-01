@@ -9,6 +9,8 @@ This course is a continuation of C# 101. It reinforces the foundational material
 - Week 5: [For Loops](ForLoops/)
 - Week 6: For Loops Practice
 - Week 7: [Classes](Classes/)
+- Week 8: [Class Constructors](ClassConstructors/)
+- Week 9: [Final Project Begins](FinalProject/)
 - Week 10: Final Project Work
 - Week 11: Final Project Presentations
 
