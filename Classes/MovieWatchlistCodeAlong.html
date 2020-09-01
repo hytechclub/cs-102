@@ -526,13 +526,13 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="movie-watchlist-code-along">Movie Watchlist Code-Along</h1>
-<p>Currently, there is <a href="https://Movies.josephmaxwell.repl.run" target="_blank">a program</a> that tracks movies a person wants to watch. It works pretty well, but there are some improvements to be made in the code. <a href="https://en.wikipedia.org/wiki/Code_refactoring" target="_blank">Refactor</a> the program so that it uses a <code>Movie</code> class, and tracks a <code>List</code> of <code>Movie</code> objects instead of two lists.</p>
+<p>Currently, there is <a href="https://Movies.josephmaxwell.repl.run" target="_blank">a program</a> that tracks movies a person wants to watch. It works pretty well, but there are some improvements to be made in the code. <a href="https://en.wikipedia.org/wiki/Code_refactoring" target="_blank">Refactor</a> the program so that it uses a <code>Movie</code> class, and tracks one <code>List</code> of <code>Movie</code> objects instead of two lists.</p>
 <p>Note that the goal of this exercise is NOT to change the functionality of the application; it should still work in the same way. The goal is to improve the architecture, to make it easier to maintain.</p>
 <h2 id="the-current-app">The Current App</h2>
 <p>Visit the <a href="https://repl.it/@JosephMaxwell/Movies#main.cs" target="_blank">Repl</a> for the app so far, and try to figure out how it works. There are a few important features:</p>
 <ul>
 <li>Two <code>List</code>s: one that stores movie titles, and one that stores movie release years</li>
-<li>An <code>while</code> loop that infinitely displays the menu for the application</li>
+<li>A <code>while</code> loop that infinitely displays the menu for the application</li>
 <li>An &quot;Add Movie&quot; command that adds a movie title and year to the respective <code>List</code>s</li>
 <li>A &quot;View Movies&quot; command that displays information about each movie</li>
 </ul>
@@ -548,7 +548,7 @@
 </ol>
 <p>Let&apos;s get started!</p>
 <h2 id="creating-the-movie-class">Creating the <code>Movie</code> Class</h2>
-<p>Create a new file in the same folder named <strong>Movie.cs</strong>. This file will contain the <code>Movie</code> class.</p>
+<p>Create a new file in the current folder named <strong>Movie.cs</strong>. This file will contain the <code>Movie</code> class.</p>
 <ol>
 <li>At the top of the file, add <code>using System;</code></li>
 <li>Under that, <em>define</em> the <code>Movie</code> class with <code>public class Movie {}</code></li>
@@ -564,7 +564,7 @@
 }
 </code></pre>
 <p>That&apos;s all that&apos;s needed to start working with the <code>Movie</code> class and creating <code>Movie</code> objects.</p>
-<h2 id="using-the-movie-type-adding-movie-objects">Using the <code>Movie</code> Type: Adding <code>Movie</code> objects</h2>
+<h2 id="using-the-movie-type-adding-movie-objects">Using the <code>Movie</code> Type: Adding <code>Movie</code> Objects</h2>
 <p>Consolidate the two <code>List</code>s that store movie information into one: a <code>List</code> of <code>Movie</code> objects!</p>
 <p>First, remove the two existing <code>List</code> variables, and create a new <code>List&lt;Movie&gt;</code> named <code>movies</code>. Everything looks the same as any other <code>List</code>, only with <code>Movie</code> as the type:</p>
 <pre><code class="lang-cs">List&lt;Movie&gt; movies = <span class="hljs-keyword">new</span> List&lt;Movie&gt;();
@@ -577,7 +577,7 @@ movie.Year = Convert.ToInt32(newYear);
 movies.Add(movie);
 </code></pre>
 <p>For now, comment out the <code>for</code> loop code for viewing movies so the code will work without an error. Run the program, and make sure movies can be added! Obviously, adding movies doesn&apos;t do much good if they cannot be viewed.</p>
-<h2 id="using-the-movie-type-viewing-movie-objects">Using the <code>Movie</code> Type: Viewing <code>Movie</code> objects</h2>
+<h2 id="using-the-movie-type-viewing-movie-objects">Using the <code>Movie</code> Type: Viewing <code>Movie</code> Objects</h2>
 <p>Before, the code used a <code>for</code> loop and printed out the title and year from the separate lists. Now that the <code>Movie</code> class exists, the actual printing can be done there instead! This helps separate concerns, and makes the code easier to read.</p>
 <p>In the <strong>Movie.cs</strong> file, add a new method named <code>Print</code> to the <code>Movie</code> class. It should be <code>public</code>, and have a return type of <code>void</code>:</p>
 <pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Print</span>(<span class="hljs-params"></span>)
@@ -650,7 +650,7 @@ movies.Add(movie);
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Movie Watchlist Code-Along","level":"1.8.1","depth":2,"next":{"title":"Restaurant Class Challenge","level":"1.8.2","depth":2,"path":"Classes/RestaurantClass.md","ref":"Classes/RestaurantClass.md","articles":[]},"previous":{"title":"Week 7 - Classes Introduction","level":"1.8","depth":1,"path":"Classes/StudentDesc.md","ref":"Classes/StudentDesc.md","articles":[{"title":"Movie Watchlist Code-Along","level":"1.8.1","depth":2,"path":"Classes/MovieWatchlistCodeAlong.md","ref":"Classes/MovieWatchlistCodeAlong.md","articles":[]},{"title":"Restaurant Class Challenge","level":"1.8.2","depth":2,"path":"Classes/RestaurantClass.md","ref":"Classes/RestaurantClass.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"CompleteSummaryVirtual.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Classes/MovieWatchlistCodeAlong.md","mtime":"2020-09-01T16:30:53.007Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-01T16:31:35.279Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Movie Watchlist Code-Along","level":"1.8.1","depth":2,"next":{"title":"Restaurant Class Challenge","level":"1.8.2","depth":2,"path":"Classes/RestaurantClass.md","ref":"Classes/RestaurantClass.md","articles":[]},"previous":{"title":"Week 7 - Classes Introduction","level":"1.8","depth":1,"path":"Classes/StudentDesc.md","ref":"Classes/StudentDesc.md","articles":[{"title":"Movie Watchlist Code-Along","level":"1.8.1","depth":2,"path":"Classes/MovieWatchlistCodeAlong.md","ref":"Classes/MovieWatchlistCodeAlong.md","articles":[]},{"title":"Restaurant Class Challenge","level":"1.8.2","depth":2,"path":"Classes/RestaurantClass.md","ref":"Classes/RestaurantClass.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"CompleteSummaryVirtual.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Classes/MovieWatchlistCodeAlong.md","mtime":"2020-09-01T16:56:28.929Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-01T16:57:08.476Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

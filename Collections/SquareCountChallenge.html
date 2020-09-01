@@ -540,14 +540,14 @@
 <ol>
 <li>In the <code>Main</code> method, declare a new <code>List&lt;int&gt;</code> variable named <code>squares</code></li>
 <li>Initialize the value of <code>squares</code> to a new empty list</li>
-<li>Create a <code>for</code> loop that will iterate through the numbers 0-100<ul>
-<li><code>for</code> keyword</li>
-<li>initializer (use <code>i</code> as the variable)</li>
-<li>condition</li>
-<li>increment</li>
+<li>Create a <code>while</code> loop that will iterate through the numbers 0-100<ul>
+<li><code>int</code> variable (<code>i</code>) to track the current number</li>
+<li><code>while</code> loop with parentheses and curly brackets</li>
+<li>Condition within the parentheses</li>
+<li>Increment <code>i</code> within the loop</li>
 </ul>
 </li>
-<li>In the body of the <code>for</code> loop, use an <code>if</code> statement to check whether the current number (<code>i</code>) is a square<ul>
+<li>In the body of the <code>while</code> loop, use an <code>if</code> statement to check whether the current number (<code>i</code>) is a square<ul>
 <li>Pass <code>i</code> as an argument to the <code>IsSquare</code> method</li>
 </ul>
 </li>
@@ -555,7 +555,7 @@
 </ol>
 <h2 id="printing-the-count">Printing the count</h2>
 <ol>
-<li>In the body of the <code>Main</code> method, beneath the <code>for</code> loop, find the <code>Count</code> of the <code>squares</code> list</li>
+<li>In the body of the <code>Main</code> method, beneath the <code>while</code> loop, find the <code>Count</code> of the <code>squares</code> list</li>
 <li>Store the count in a variable</li>
 <li>Display a message to the user informing them of the count</li>
 </ol>
@@ -574,7 +574,7 @@
 </ol>
 <h2 id="extra-challenges">Extra Challenges</h2>
 <h3 id="custom-limit">Custom limit</h3>
-<p>Instead of counting all the squares from 0-100, allow the user to enter the upper limit. Use the number they enter in the <code>for</code> loop instead of <code>100</code>.</p>
+<p>Instead of counting all the squares from 0-100, allow the user to enter the upper limit. Use the number they enter in the <code>while</code> loop instead of <code>100</code>.</p>
 <h3 id="better-error-handling">Better error handling</h3>
 <p>When squaring a number, do not allow the user to square a number outside the range of the list. For example, if they wish to square the number <code>20</code>, but there fewer than <code>21</code> items in the list, display a message saying &quot;Number not within range.&quot;</p>
 
@@ -620,7 +620,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Square Count Challenge","level":"1.4.3","depth":2,"next":{"title":"To-Do List Challenges","level":"1.4.4","depth":2,"path":"Collections/ToDoListChallenges.md","ref":"Collections/ToDoListChallenges.md","articles":[]},"previous":{"title":"To-Do List Individual Exercises","level":"1.4.2","depth":2,"path":"Collections/ToDoListIndividual.md","ref":"Collections/ToDoListIndividual.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"CompleteSummaryVirtual.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Collections/SquareCountChallenge.md","mtime":"2020-09-01T16:30:53.011Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-01T16:31:35.279Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Square Count Challenge","level":"1.4.3","depth":2,"next":{"title":"To-Do List Challenges","level":"1.4.4","depth":2,"path":"Collections/ToDoListChallenges.md","ref":"Collections/ToDoListChallenges.md","articles":[]},"previous":{"title":"To-Do List Individual Exercises","level":"1.4.2","depth":2,"path":"Collections/ToDoListIndividual.md","ref":"Collections/ToDoListIndividual.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"CompleteSummaryVirtual.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Collections/SquareCountChallenge.md","mtime":"2020-09-01T16:56:28.933Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-01T16:57:08.476Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
