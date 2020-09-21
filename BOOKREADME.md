@@ -5,7 +5,7 @@ Welcome to the C# 102 Hy-Tech Club course!
 The C# 102 course will use [Repl](https://repl.it). Please complete the [Repl setup steps](ReplSetup.md) before the course begins.
 
 ## Zoom Meetings
-The course will meet weekly on Wednesdays via [Zoom]() from 4:30 p.m. to 6:30 p.m. ET.
+The course will meet weekly on Wednesdays via [Zoom](https://hyland.zoom.us/j/97475797538?pwd=SHNzaHJNL3NTTkI2QU96ZzVkOUNDZz09) from 4:30 p.m. to 6:30 p.m. ET. If prompted for a password, enter **495471**.
 
 ## Schedule
 Follow the links below to view each week of material.
