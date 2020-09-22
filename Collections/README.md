@@ -14,6 +14,8 @@ Pose the following question to the students:
 
 >What are some things you might store in a list?
 
+Use [this Quizizz question](https://quizizz.com/admin/quiz/5f6a0d78c2a344001b1f9b57/what-s-in-a-list) to let the students answer.
+
 ## Lecture
 The lecture introduces both arrays and lists. The emphasis is on `List`s (they are more useful in modern programming).
 

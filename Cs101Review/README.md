@@ -5,7 +5,10 @@ For the first session, establish the classroom environment and start reviewing t
 The first session should begin with a quick icebreaker activity where the instructors and students can introduce themselves.
 
 ### Virtual Icebreaker
-First, go around the room and have each instructor and student introduce themselves. Then, break out into a couple different rooms, and create new private rooms in [skribbl.io](https://skribbl.io). Keep the round count and draw time to small numbers to limit the total amount of time for the activity. In the "Custom Words" text area, add some C#-related words that the students should recognize from C# 101. For example:
+Complete a virtual activity to allow the students to get to know each other, and encourage them to share their screen/mic/video. One possibility is to have each student go to [Sketchpad](https://sketch.io/sketchpad/) and have them draw something. Then, go around the room and have each student introduce their drawing by sharing their screen.
+
+### Virtual Icebreaker Game
+Break out into a couple different rooms, and create new private rooms in [skribbl.io](https://skribbl.io). Keep the round count and draw time to small numbers to limit the total amount of time for the activity. In the "Custom Words" text area, add some C#-related words that the students should recognize from C# 101. For example:
 
 ```
 C#, variable, conditional, if, else, while, loop, method, return, parameter, argument, console, int, string, boolean, data, type, semi-colon, parenthesis, dot, quotes, write, read
