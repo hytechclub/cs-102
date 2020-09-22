@@ -14,7 +14,7 @@ Complete the following challenges.
 1. Use a `foreach` loop to check if the name is in the list
 1. Tell the user if the name is in the list or not
 
-## Create a collection of the first 100 Fibonacci numbers
+## Create a Collection of the First 100 Fibonacci Numbers
 Recall that the Fibonacci series is defined by the the nth number is the sum of the two previous:
 ```
 f[n] = f[n-1] + f[n-2]  => 0,1,1,2,3,5 ...
@@ -26,7 +26,7 @@ Use this information to find and store the first 100 fibonacci numbers.
 1. Ask the user for a number between `1` and `100`
 1. Print the fibonacci number of the number provided
 
-## Check if a string is a palindrome
+## Check if a String is a Palindrome
 A palindrome is defined as follows:
 >A group of characters that is the same forward as it is backwards. Palindromes normally do not take into account letter casing, spaces or punctuation.
 
