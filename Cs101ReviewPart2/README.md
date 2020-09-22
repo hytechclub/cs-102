@@ -4,8 +4,10 @@ Continue to review the concepts from C# 101, with a particular focus on methods.
 ## Warm-Up
 Ask the students if there are any topics they would like to review. Keep the scope to output, input, variables, data types, `if` statements, `while` loops, and methods. All of these topics will be covered by the code-along and practice, but make sure to spend extra time on any topics that require extra attention.
 
+Use [this Quizizz Poll](https://quizizz.com/admin/quiz/5f6a0bb914fd47001b935507/review-topics-poll) to see what the students think.
+
 ## Boxifier Code-Along
-Walk through the [Boxifier Code-Along](BoxifierCodeAlong.md) with the students. Make sure to ask review questions along the way.
+Walk through the [Boxifier Code-Along](BoxifierCodeAlong.md) with the students. Make sure to ask appropriate review questions along the way.
 
 ## Method Review Practice
 After the code-along, allow the students to work on the [Method Review Practice](MethodReviewPractice.md). If they did not complete the [practice from the previous session](../Cs101Review/BasicReviewPractice.md), they can work on that as well.
