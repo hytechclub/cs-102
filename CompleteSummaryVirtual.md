@@ -19,6 +19,7 @@
     - [Sum Individual Exercise](ForLoops/SumIndividual.md)
     - [Challenges](ForLoops/ForLoopChallenges.md)
 - [Week 6 - For Loops Practice](ForLoops/Practice.md)
+    - [Basic Practice](ForLoops/BasicPractice.md)
 - [Week 7 - Classes Introduction](Classes/StudentDesc.md)
     - [Movie Watchlist Code-Along](Classes/MovieWatchlistCodeAlong.md)
     - [Restaurant Class Challenge](Classes/RestaurantClass.md)
