@@ -5,26 +5,37 @@ Welcome to the C# 102 Hy-Tech Club course!
 The C# 102 course will use [Repl](https://repl.it). Please complete the [Repl setup steps](ReplSetup.md) before the course begins.
 
 ## Zoom Meetings
-The course will meet weekly on Wednesdays via [Zoom](https://hyland.zoom.us/j/97475797538?pwd=SHNzaHJNL3NTTkI2QU96ZzVkOUNDZz09) from 4:30 p.m. to 6:30 p.m. ET. If prompted for a password, enter **495471**.
+The course will meet weekly on Tuesdays via **Zoom** from 4:30 p.m. to 6:30 p.m. ET.
+
+[Click Here to join from PC, Mac, Linux, iOS or Android](https://hyland.zoom.us/j/97475797538?pwd=SHNzaHJNL3NTTkI2QU96ZzVkOUNDZz09). If prompted, the password for the meeting is **495471**.
+
+## Discord
+Use **Discord** to ask questions, view announcements, and chat with fellow students. Note that students are **NOT** required to use Discord.
+
+- [Course Server](https://discord.com/channels/755095284224360561/)
+- [Usage Guidelines & Setup Instructions](https://hylandtechclub.com/DiscordUse)
 
 ## Schedule
 Follow the links below to view each week of material.
 
-- [Week 1 (9/30) - Introductions & Review](Cs101Review/StudentDesc.md)
-- [Week 2 (10/7) - C# 101 Review Continued](Cs101ReviewPart2/StudentDesc.md)
-- [Week 3 (10/14) - Collections (Lists)](Collections/StudentDesc.md)
-- [Week 4 (10/21) - Lists Practice](Collections/ListsPractice.md)
-- [Week 5 (10/28) - For Loops](ForLoops/StudentDesc.md)
-- [Week 6 (11/4) - For Loops Practice](ForLoops/Practice.md)
-- [Week 7 (11/11) - Classes Introduction](Classes/StudentDesc.md)
-- [Week 8 (11/18) - Class Constructors](ClassConstructors/StudentDesc.md)
-- **NO MEETING 11/25**
-- [Week 9 (12/2) - Final Project](FinalProject/FinalProject.md)
-- Week 10 (12/9) - Final Project Work
-- Week 11 (12/16) - Final Project Presentations
+- [Week 1 (9/29) - Introductions & Review](Cs101Review/StudentDesc.md)
+- [Week 2 (10/6) - C# 101 Review Continued](Cs101ReviewPart2/StudentDesc.md)
+- [Week 3 (10/13) - Collections (Lists)](Collections/StudentDesc.md)
+- [Week 4 (10/20) - Lists Practice](Collections/ListsPractice.md)
+- [Week 5 (10/27) - For Loops](ForLoops/StudentDesc.md)
+- [Week 6 (11/3) - For Loops Practice](ForLoops/Practice.md)
+- [Week 7 (11/10) - Classes Introduction](Classes/StudentDesc.md)
+- [Week 8 (11/17) - Class Constructors](ClassConstructors/StudentDesc.md)
+- **NO MEETING 11/24**
+- [Week 9 (12/1) - Final Project](FinalProject/FinalProject.md)
+- Week 10 (12/8) - Final Project Work
+- Week 11 (12/15) - Final Project Presentations
 
 ## Points
 Earn points throughout the semester by asking good questions, answering questions, helping others, working hard, and behaving well!
+
+### Viewing Point Totals
+Check out [this guide](https://hylandtechclub.com/ClassDojoPoints) for viewing point totals in ClassDojo.
 
 ### Rewards
 Points can be redeemed for a variety of rewards.
