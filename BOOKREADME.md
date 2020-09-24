@@ -9,7 +9,7 @@ The course will meet weekly on Tuesdays via **Zoom** from 4:30 p.m. to 6:30 p.m.
 
 The meeting ID is **974 7579 7538**, and the password is **495471**.
 
-[Click Here to join from PC, Mac, Linux, iOS or Android](https://hyland.zoom.us/j/97475797538?pwd=SHNzaHJNL3NTTkI2QU96ZzVkOUNDZz09).
+- [Click Here to join from PC, Mac, Linux, iOS or Android](https://hyland.zoom.us/j/97475797538?pwd=SHNzaHJNL3NTTkI2QU96ZzVkOUNDZz09).
 - To join by phone: Dial [+1 312 626 6799](tel:+13126266799) and enter the meeting ID and password.
 
 ## Discord
