@@ -3,7 +3,7 @@ For this session, practice using `List` objects in C#.
 
 1. Complete the [basic practice](BasicPractice.md) exercises
 1. Work on any of the various challenges from the [previous session](StudentDesc.md)
-2. Try to complete the more difficult challenges below
+1. Try to complete the more difficult challenges below
 
 ## Bonus Challenge 1: ASCII Art Animation
 Create a new Repl, and in it, create an ASCII art animation. When the program runs, it should repeatedly cycle through the frames of an animation. The end result should look something like this:
