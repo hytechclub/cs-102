@@ -19,9 +19,7 @@ Create an application that allows a user to enter some information about themsel
 Create a console-based game. This could be a text adventure, or a more interactive game where the player can move a text-based character around on the screen.
 
 #### Game Ideas
-- Rock Paper Scissors
 - Tic Tac Toe
-- Hangman
 - Choose Your Own Adventure game
 - RPG-style game
 
