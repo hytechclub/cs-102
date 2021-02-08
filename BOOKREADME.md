@@ -7,9 +7,9 @@ The C# 102 course will use [Repl](https://repl.it). Please complete the [Repl se
 ## Zoom Meetings
 The course will meet weekly on Wednesdays via **Zoom** from 4:00 p.m. to 6:00 p.m. ET.
 
-The meeting ID is **????????**, and the password is **????????????**.
+The meeting ID is **949 8815 7121**, and the password is **998459**.
 
-- [Click Here to join from PC, Mac, Linux, iOS or Android](??????????????????????????????????).
+- [Click Here to join from PC, Mac, Linux, iOS or Android](https://hyland.zoom.us/j/94988157121?pwd=TlY5clQxaUp5SGY4SjlGY1hOQkpldz09).
 - To join by phone: Dial [+1 312 626 6799](tel:+13126266799) and enter the meeting ID and password.
 
 ## Discord
