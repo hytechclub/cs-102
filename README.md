@@ -15,4 +15,4 @@ This course is a continuation of C# 101. It reinforces the foundational material
 - Week 11: Final Project Presentations
 
 ## Virtual Semester
-Use [repl.it](https://repl.it) instead of Visual Studio for a virtual semester. This will prevent the need for Git.
+Use [Replit](https://replit.com) instead of Visual Studio for a virtual semester. This will prevent the need for Git.

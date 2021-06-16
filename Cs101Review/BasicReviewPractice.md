@@ -12,13 +12,13 @@ After completing the [Illustrator Code-Along](IllustratorCodeAlong.md), make the
 ## Find the Bugs
 Visit each of the following Repls, and fix the errors in them.
 
-- [Bug 1](https://repl.it/@JosephMaxwell/Cs101ReviewBug1#main.cs)
-- [Bug 2](https://repl.it/@JosephMaxwell/Cs101ReviewBug2#main.cs)
-- [Bug 3](https://repl.it/@JosephMaxwell/Cs101ReviewBug3#main.cs)
-- [Bug 4](https://repl.it/@JosephMaxwell/Cs101ReviewBug4#main.cs)
+- [Bug 1](https://replit.com/@JosephMaxwell/Cs101ReviewBug1#main.cs)
+- [Bug 2](https://replit.com/@JosephMaxwell/Cs101ReviewBug2#main.cs)
+- [Bug 3](https://replit.com/@JosephMaxwell/Cs101ReviewBug3#main.cs)
+- [Bug 4](https://replit.com/@JosephMaxwell/Cs101ReviewBug4#main.cs)
 
 ## Multi-Page Story
-Often when reading something on a computer, the program will contain multiple pages instead of showing all the text at once. Create a C# application that will display a story, one passage at a time. It should end up looking something like [this Frankenstein story](https://StoryBook.josephmaxwell.repl.run) by the end.
+Often when reading something on a computer, the program will contain multiple pages instead of showing all the text at once. Create a C# application that will display a story, one passage at a time. It should end up looking something like [this Frankenstein story](https://replit.com/@JosephMaxwell/StoryBook) by the end.
 
 Use `Console.WriteLine` to display the text from the story. Use `Console.ReadLine` to wait for the user to press Enter and continue. Use a `while` loop to loop through each passage of the story. Make sure to declare a counter variable to keep track of the current passage, and increment it every time through the loop.
 

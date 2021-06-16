@@ -8,7 +8,7 @@ Look back at the [restaurant challenge](../Classes/RestaurantClass.md) from the 
 
 ![](https://i.imgur.com/cnEliHB.png)
 
-Visit the [Fruit Stand Repl project](https://repl.it/@JosephMaxwell/FruitStandBugs), and try to fix the bugs in it. Some of these bugs may not be immediately obvious: try testing out the programs to discover them. Make sure that everything functions properly by the end!
+Visit the [Fruit Stand Repl project](https://replit.com/@JosephMaxwell/FruitStandBugs), and try to fix the bugs in it. Some of these bugs may not be immediately obvious: try testing out the programs to discover them. Make sure that everything functions properly by the end!
 
 There should be a total of `6` bugs to find and fix, across both the **main.cs** file and the **Fruit.cs** file.
 

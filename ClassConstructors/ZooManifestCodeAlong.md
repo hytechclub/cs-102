@@ -2,7 +2,7 @@
 Update an existing class so that it uses a custom constructor!
 
 ## Starter App
-Open up the [starter Zoo Manifest app](https://repl.it/@JosephMaxwell/ZooManifest), and take a look at it.
+Open up the [starter Zoo Manifest app](https://replit.com/@JosephMaxwell/ZooManifest), and take a look at it.
 
 ### `Animal` Class
 The `Animal` class represents an animal. Each `Animal` has a name, a species, a height (in inches), and a certain number of legs. There is a method that prints this information to the console.

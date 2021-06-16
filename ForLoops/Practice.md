@@ -8,7 +8,7 @@ For this session, practice using `for` loops in C#.
 ## Bonus Challenge 1: Heat Tracker
 Imagine a race. There are several contestants, and each contestant has three chances (each called a _heat_) to achieve their best time. The times for each of their heats are recorded in a `List`, with each time being represented as a `double`. All of those results are stored in _another_ `List`, which is a `List` of `List` objects.
 
-Open up the [Heat Tracker Repl](https://repl.it/@JosephMaxwell/HeatTracker) and take a look at what it does so far. It works, but there are a lot of enhancements to be made! Add the ability for the user to do the following:
+Open up the [Heat Tracker Repl](https://replit.com/@JosephMaxwell/HeatTracker) and take a look at what it does so far. It works, but there are a lot of enhancements to be made! Add the ability for the user to do the following:
 
 - Add a new result
 - Print the lowest heat time for each result
@@ -25,7 +25,7 @@ It should end up looking something like this when the program runs:
 
 ![](https://i.imgur.com/QwNdnhu.gif)
 
-If desired, start from this [Repl](https://repl.it/@JosephMaxwell/FlowerGarden) with guiding comments. The Repl contains all of the ASCII art necessary for the garden.
+If desired, start from this [Repl](https://replit.com/@JosephMaxwell/FlowerGarden) with guiding comments. The Repl contains all of the ASCII art necessary for the garden.
 
 ### Beyond the Basics
 After creating the basic flower garden, make some enhancements to it!

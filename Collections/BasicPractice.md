@@ -4,11 +4,11 @@ Complete the following exercises related to `List` objects.
 ## Exercise 1: Bugs
 Visit each of the following Repls. Start by trying to run the programs, and make a note of any error messages received. Then, fork the Repl and try to fix the code!
 
-- [Bug 1](https://repl.it/@JosephMaxwell/ListBug1#main.cs)
-- [Bug 2](https://repl.it/@JosephMaxwell/ListBug2#main.cs)
-- [Bug 3](https://repl.it/@JosephMaxwell/ListBug3#main.cs)
-- [Bug 4](https://repl.it/@JosephMaxwell/ListBug4#main.cs)
-- [Bug 5](https://repl.it/@JosephMaxwell/ListBug5#main.cs)
+- [Bug 1](https://replit.com/@JosephMaxwell/ListBug1#main.cs)
+- [Bug 2](https://replit.com/@JosephMaxwell/ListBug2#main.cs)
+- [Bug 3](https://replit.com/@JosephMaxwell/ListBug3#main.cs)
+- [Bug 4](https://replit.com/@JosephMaxwell/ListBug4#main.cs)
+- [Bug 5](https://replit.com/@JosephMaxwell/ListBug5#main.cs)
 
 ## Exercise 2: A Playlist of Your Favorite Songs
 Think of some of your favorite songs. Create a program that adds those songs to a list, and then displays them!

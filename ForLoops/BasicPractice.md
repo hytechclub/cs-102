@@ -4,11 +4,11 @@ Complete the following exercises related to `for` loops.
 ## Exercise 1: Bugs
 Visit each of the following Repls. Start by trying to run the programs, and make a note of any error messages received. Then, fork the Repl and try to fix the code!
 
-- [Bug 1](https://repl.it/@JosephMaxwell/ForLoopBug1#main.cs)
-- [Bug 2](https://repl.it/@JosephMaxwell/ForLoopBug2#main.cs)
-- [Bug 3](https://repl.it/@JosephMaxwell/ForLoopBug3#main.cs)
-- [Bug 4](https://repl.it/@JosephMaxwell/ForLoopBug4#main.cs)
-- [Bug 5](https://repl.it/@JosephMaxwell/ForLoopBug5#main.cs)
+- [Bug 1](https://replit.com/@JosephMaxwell/ForLoopBug1#main.cs)
+- [Bug 2](https://replit.com/@JosephMaxwell/ForLoopBug2#main.cs)
+- [Bug 3](https://replit.com/@JosephMaxwell/ForLoopBug3#main.cs)
+- [Bug 4](https://replit.com/@JosephMaxwell/ForLoopBug4#main.cs)
+- [Bug 5](https://replit.com/@JosephMaxwell/ForLoopBug5#main.cs)
 
 ## Exercise 2: Rocket Launch Countdown
 Create a program that uses a `for` loop to count down the numbers from `10` to `1`, then says "Lift off!"

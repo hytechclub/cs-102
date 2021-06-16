@@ -1,4 +1,4 @@
-- [Repl Setup](ReplSetup.md)
+- [Replit Setup](ReplitSetup.md)
 - [Week 1 - Introductions & Review](Cs101Review/StudentDesc.md)
     - [Illustrator Code-Along](Cs101Review/IllustratorCodeAlong.md)
     - [Basic Review Practice](Cs101Review/BasicReviewPractice.md)

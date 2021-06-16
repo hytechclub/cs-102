@@ -1,10 +1,10 @@
 # Movie Watchlist Code-Along
-Currently, there is [a program](https://Movies.josephmaxwell.repl.run) that tracks movies a person wants to watch. It works pretty well, but there are some improvements to be made in the code. [Refactor](https://en.wikipedia.org/wiki/Code_refactoring) the program so that it uses a `Movie` class, and tracks one `List` of `Movie` objects instead of two lists.
+Currently, there is [a program](https://replit.com/@JosephMaxwell/Movies) that tracks movies a person wants to watch. It works pretty well, but there are some improvements to be made in the code. [Refactor](https://en.wikipedia.org/wiki/Code_refactoring) the program so that it uses a `Movie` class, and tracks one `List` of `Movie` objects instead of two lists.
 
 Note that the goal of this exercise is NOT to change the functionality of the application; it should still work in the same way. The goal is to improve the architecture, to make it easier to maintain.
 
 ## The Current App
-Visit the [Repl](https://repl.it/@JosephMaxwell/Movies#main.cs) for the app so far, and try to figure out how it works. There are a few important features:
+Visit the [Repl](https://replit.com/@JosephMaxwell/Movies#main.cs) for the app so far, and try to figure out how it works. There are a few important features:
 
 - Two `List`s: one that stores movie titles, and one that stores movie release years
 - A `while` loop that infinitely displays the menu for the application
